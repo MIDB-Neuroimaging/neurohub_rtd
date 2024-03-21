@@ -1,0 +1,48 @@
+site_name: MIDB Neuroimaging Hub readthedocs
+
+theme: 
+    name: readthedocs
+    #logo: images/dcan.ico
+
+plugins:
+    - search
+
+#theme:
+#  icon:
+#    admonition:
+#      <type>: <icon> 
+
+docs_dir: docs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav: 
+    - Welcome: index.md
+    
+    - Shortcuts: shortcuts.md
+
+    - MSI 101: #msi
+        - Getting access: msi/msi.md
+        - Transferring data on MSI: msi/transfer.md
+        - For PIs - Activate and maintain your share: msi/maintenance.md
+        - For PIs - Make changes to your share: msi/changes.md      
+        
+    - CMRR: #cmrr
+        - Step 1 - Registration and Access: cmrr/user.md
+        - Step 2 - Human Research Training: cmrr/operator.md
+        - CMRR servers (accessing your data): 
+            - Nomenclature: cmrr/naxos.md
+            - Connecting to the CMRR VPN: cmrr/naxos.md
+            - Connecting to naxos: cmrr/naxos.md
+            - Transfering data from CMRR: cmrr/transfer2.md
+            - Help! Where is my data?: cmrr/search.md
+
+    #- Data Storage Options:
+
+    - Data Handling on MSI: #usingmsi
+        - Troubleshooting: usingmsi/troubleshooting.md 
+        - usingmsi/location.md 
+
