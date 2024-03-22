@@ -2,13 +2,15 @@ site_name: MIDB Neuroimaging Hub readthedocs
 
 theme: 
     name: readthedocs
-    #logo: images/dcan.ico
-
+    collapse_navigation: True
+    logo: brain-illustrations1.png
+    
 plugins:
     - search
 
-#theme:
-#  icon:
+#theme:     
+#    collapse_navigation: True
+#    icon:
 #    admonition:
 #      <type>: <icon> 
 
@@ -18,11 +20,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 nav: 
     - Welcome: index.md
-    
-    - Shortcuts: shortcuts.md
 
     - MSI 101: #msi
         - Getting access: msi/msi.md
@@ -33,7 +35,7 @@ nav:
     - CMRR: #cmrr
         - Step 1 - Registration and Access: cmrr/user.md
         - Step 2 - Human Research Training: cmrr/operator.md
-        - CMRR servers (accessing your data): 
+        - CMRR servers (accessing your data):
             - Nomenclature: cmrr/naxos.md
             - Connecting to the CMRR VPN: cmrr/naxos.md
             - Connecting to naxos: cmrr/naxos.md
@@ -46,3 +48,4 @@ nav:
         - Troubleshooting: usingmsi/troubleshooting.md 
         - usingmsi/location.md 
 
+    - Shortcuts: shortcuts.md
