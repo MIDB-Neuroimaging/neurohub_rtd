@@ -35,12 +35,12 @@ nav:
     - CMRR: #cmrr
         - Step 1 - Registration and Access: cmrr/user.md
         - Step 2 - Human Research Training: cmrr/operator.md
-        - CMRR servers (accessing your data):
-            - Nomenclature: cmrr/naxos.md
-            - Connecting to the CMRR VPN: cmrr/naxos.md
-            - Connecting to naxos: cmrr/naxos.md
-            - Transfering data from CMRR: cmrr/transfer2.md
-            - Help! Where is my data?: cmrr/search.md
+        - CMRR servers (accessing your data): cmrr/naxos.md
+        - Transfering data from CMRR: cmrr/transfer2.md
+        - Help! Where is my data?: cmrr/search.md
+    
+    - MIDB: #midb
+        - CNBD Access: midb/cnbd.md
 
     #- Data Storage Options:
 
