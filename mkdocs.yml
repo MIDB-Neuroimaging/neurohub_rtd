@@ -35,12 +35,16 @@ nav:
     - CMRR: #cmrr
         - Step 1 - Registration and Access: cmrr/user.md
         - Step 2 - Human Research Training: cmrr/operator.md
-        - CMRR servers (accessing your data): cmrr/naxos.md
+        - CMRR Servers (accessing your data): cmrr/naxos.md
         - Transfering data from CMRR: cmrr/transfer2.md
         - Help! Where is my data?: cmrr/search.md
     
     - MIDB: #midb
+        - MIDB Imaging Suite: midb/midbaccess.md
         - CNBD Access: midb/cnbd.md
+        - At The Console: midb/console.md
+        - Safety at MIDB: midb/safety.md
+        - FAQs: midb/faqs.md
 
     #- Data Storage Options:
 

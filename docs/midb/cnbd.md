@@ -1,4 +1,4 @@
-## CNBD
+## CNBD Access
 Sometimes CNBD space is required. To gain access to CNBD space please follow these steps.
 
 1. Email cnbd@umn.edu to let them know a request will be submitted for CNBD access. Provide the individual’s name, x500, lab association, CTSI study ID, and role on the project. 
