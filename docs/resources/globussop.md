@@ -11,7 +11,7 @@ If you are with a non-profit institution, you can log in and get started moving 
 4. Search for your institution, then follow the prompts to log in with your institutional credentials.
 
 ## Transferring Data
-Follow [this link](https://msi.umn.edu/our-resources/knowledge-base/file-transfer-faqs/how-do-i-use-globus-transfer-data-msi) to learn more about transferring data to MSI.
+Follow [this link](https://msi.umn.edu/our-resources/knowledge-base/file-transfer-faqs/how-do-i-use-globus-transfer-data-msi) to learn more about using Globus to transfer data to MSI.
 
 ## Globus Connect Personal
 Globus Connect Personal is a downloadable application that will create an endpoint on your local drive and allow you to easily transfer files back and forth. To download Globus Connect Personal, please follow [this link.](https://www.globus.org/globus-connect-personal)
@@ -30,9 +30,9 @@ To add a bookmark:
 4. Select the intended file path
 
 !!! note
-    Bookmarking Tier 1 storage requires you do log in to authenticate your MSI credentials. You must already have a MSI account to do this.
+    Bookmarking Tier 1 storage requires you to log in and authenticate your MSI credentials. You must already have a MSI account to do this.
 
-5. Click "Continue" and follow the prompts to log in <u>with your credentials.</u>
+5. Click "Continue" and follow the prompts to log in **with your credentials.**
 6. Once back in the "File Manager" tab, in the middle of the transfer box click the bookmark icon
     <figure markdown="span">
         ![sop3](globus3.png)

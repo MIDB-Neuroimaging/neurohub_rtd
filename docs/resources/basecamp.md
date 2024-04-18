@@ -4,7 +4,7 @@
 
 [Basecamp](https://basecamp.com/) is a project management application useful for monitoring projects throughout their lifetime. With Basecamp, managers can assign tasks, deliverables, and due dates to personnel on the project. These deadlines can be once, or recurring, and will send out reminders to the assigned personnel. Basecamp is also great for quick messaging and centralizing document sharing.
 
-## Features:
+## Features
 
 - **Project Management:** Basecamp offers tools for organizing projects, assigning tasks, setting deadlines, and tracking progress.
   

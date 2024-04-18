@@ -12,7 +12,7 @@ Your UMN computer has a local storage space that you may want to use for working
 
 ### Globus
 
-Globus is a file transfer service that has encrypted services for transmitting large-scale data between institutions. Visit UMN's [starting guide](https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-msi-0) for information on setting up Globus for transferring data to and from MSI servers.
+Globus is a file transfer service that has encrypted services for transmitting large-scale data between institutions. Checkout the [Globus How-to page](../resources/globussop.md) or visit UMN's [starting guide](https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-msi-0) for information on setting up Globus for transferring data to and from MSI servers.
 
 ## Letting others have access to s3 buckets
 
