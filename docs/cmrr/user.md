@@ -22,15 +22,15 @@ As a new user, you will need to [register with CMRR.](https://www.cmrr.umn.edu/a
 
 There are various levels of access to CMRR's resources. Different trainings are required for each level. Follow the steps outlined [here](https://www.cmrr.umn.edu/safety/). The following definitions are not formal but should help you decide which type of access you need:
 
-1. General access: 
+1. **General access:** 
     * Someone who needs access to CMRR's building but not the magnets. 
-2. Magnet access: 
+2. **Magnet access:** 
     * Someone who needs card access to any of CMRR's magnets but will not be operating the scanners or be interacting with human participants (e.g., someone working with peripheral equipment or console computers). 
-3. Human research access: 
+3. **Human research access:** 
     * Someone who is planning to be present at scans with human subjets but will not operate the scanner (e.g., study coordinators, study support staff, etc.).
-4. Phantom access: 
+4. **Phantom access:** 
     * Someone who is planning on operating the scanner to acquire data on phantoms but not human subjects. 
-5. Operator access: 
+5. **Operator access:** 
     * Someone who is planning on operating the scanner to acquire data on human subjects. 
 
 !!! note

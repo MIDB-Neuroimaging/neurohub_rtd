@@ -15,7 +15,7 @@ Registering Participants:
 - Birthdate should be entered as 1/1/[birth year]
 - Enter accurate height and weight
 
-# Handling Data
+## Handling Data
 !!! tip
     MIDB studies should push/export data to Naxos. 
 
@@ -26,7 +26,7 @@ Registering Participants:
 
 Always export your data when your session is over AND check that it arrived. Double check that all scans made it in case of partial transfer. For more information see [Navigating to Naxos](../cmrr/naxos.md)
 
-# Incidental Findings
+## Incidental Findings
 If you happen to run into any incidental findings during a scan, please follow these steps:
 
 1. Export the structural data (T1, T2) to FV_PACS.

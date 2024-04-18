@@ -17,3 +17,7 @@ Every UMN user has access to 150TB of Tier 2.
 
 !!! danger
     danger
+
+**Bold**
+*italics*
+<u>underline</u>

@@ -1,4 +1,4 @@
-## MIDB Access
+# MIDB Access
 To scan human subjects, researchers must be 3T Operator Certified through CMRR. 
 
 To gain access to the imaging suite, researchers must complete the online safety trainings required by CMRR. [See CMRR Access](../cmrr/user.md).
