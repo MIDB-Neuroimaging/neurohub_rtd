@@ -24,7 +24,10 @@ Registering Participants:
     - Space is limited and data should be considered at high risk for being overwritten.  
 
 
-Always export your data when your session is over AND check that it arrived. Double check that all scans made it in case of partial transfer. For more information see [Navigating to Naxos](../cmrr/naxos.md)
+Always export your data when your session is over AND check that it arrived. Double check that all scans made it in case of partial transfer. For more information see [Navigating to Naxos.](../cmrr/naxos.md){:target="_blank"}
+
+### Export Data to CD/DVD
+A portable DVD burner is in the control room (it's on the shelf above the mac) that can be plugged into the console tower. Extra CDs are also in the control room.
 
 ## Incidental Findings
 If you happen to run into any incidental findings during a scan, please follow these steps:

@@ -3,7 +3,7 @@ PIs can request the activation of their share partition by following the below s
 !!! note
     Your share partition will be named the same as your umnID. 
 
-1) [Follow this link:](https://www.msi.umn.edu/content/eligibility-getting-access) and click "Request an MSI Account". You are asking for Tier 1 space. More on data storage [here](https://www.msi.umn.edu/content/data-storage). 
+1) [Follow this link:](https://www.msi.umn.edu/content/eligibility-getting-access){:target="_blank"} and click "Request an MSI Account". You are asking for Tier 1 space. More on data storage [here.](https://www.msi.umn.edu/content/data-storage){:target="_blank"}
 
 !!! note
     Initially, the default will be for 150GB of space. You can request additional space later. 

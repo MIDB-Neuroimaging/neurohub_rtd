@@ -4,23 +4,23 @@
 
 The CMRR focuses on development of unique magnetic resonance imaging and spectroscopy methodologies and instrumentation for the acquisition of structural, functional, and biochemical information non-invasively in humans, and utilizing this capability to investigate organ function in health and disease. The distinctive feature of this center is the emphasis on ultrahigh magnetic fields (7 Tesla (T) and above). CMRR houses three 3T scanners, two 7T scanners, and one 10.5T scanner for human subjects. 
 
-For more information, visit [CMRR's website](https://www.cmrr.umn.edu/). 
+For more information, visit [CMRR's website.](https://www.cmrr.umn.edu/){:target="_blank"} 
 
 !!! tip
     3T-D is the name for the satellite 3T scanner housed at MIDB and managed by CMRR. 
 
 ## Registering with CMRR
 
-As a new user, you will need to [register with CMRR.](https://www.cmrr.umn.edu/access/) Once your registration is complete, you will be given a CMRR login (username). 
+As a new user, you will need to [register with CMRR.](https://www.cmrr.umn.edu/access/){:target="_blank"} Once your registration is complete, you will be given a CMRR login (username). 
 
 !!! note
-    Your CMRR login may or may not be the same as your umnID. Check it [here](https://www.cmrr.umn.edu/sysadmin/database2/myview2.php?page=edit_account). 
+    Your CMRR login may or may not be the same as your umnID. Check it [here.](https://www.cmrr.umn.edu/sysadmin/database2/myview2.php?page=edit_account){:target="_blank"} 
 
 ## CMRR Resources
 
 ### Building and Magnet Access
 
-There are various levels of access to CMRR's resources. Different trainings are required for each level. Follow the steps outlined [here](https://www.cmrr.umn.edu/safety/). The following definitions are not formal but should help you decide which type of access you need:
+There are various levels of access to CMRR's resources. Different trainings are required for each level. Follow the steps outlined [here.](https://www.cmrr.umn.edu/safety/){:target="_blank"} The following definitions are not formal but should help you decide which type of access you need:
 
 1. **General access:** 
     * Someone who needs access to CMRR's building but not the magnets. 
@@ -42,7 +42,7 @@ If you will be transferring data from CMRR servers to MSI, then you will need ac
 
 Check access:
 
-1. Navigate to your [CMRR profile](https://www.cmrr.umn.edu/access/user/my.profile.php). If there is a button that says "Change CMRR server password" then you have access (and you might need to change your password if you don't remember what it is).
+1. Navigate to your [CMRR profile.](https://www.cmrr.umn.edu/access/user/my.profile.php){:target="_blank"} If there is a button that says "Change CMRR server password" then you have access (and you might need to change your password if you don't remember what it is).
 
 2. Log in to the CMRR VPN with your umnID and password. If you have server access but run into issues with logging on with the VPN, put in a help ticket with CMRR (help@cmrr.umn.edu). 
 

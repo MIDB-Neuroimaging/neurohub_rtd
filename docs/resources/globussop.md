@@ -2,7 +2,7 @@
 If you are with a non-profit institution, you can log in and get started moving data instantly, for free.
 
 ## Logging in for the first time
-1. Navigate to [globus.org](https://www.globus.org/)
+1. Navigate to [globus.org](https://www.globus.org/){:target="_blank"}
 2. In the top right corner, click on "Get Started"
 3. On the right side under "Move Data Now" click "Log into Globus"
     <figure markdown="span">
@@ -11,10 +11,10 @@ If you are with a non-profit institution, you can log in and get started moving 
 4. Search for your institution, then follow the prompts to log in with your institutional credentials.
 
 ## Transferring Data
-Follow [this link](https://msi.umn.edu/our-resources/knowledge-base/file-transfer-faqs/how-do-i-use-globus-transfer-data-msi) to learn more about using Globus to transfer data to MSI.
+Follow [this link](https://msi.umn.edu/our-resources/knowledge-base/file-transfer-faqs/how-do-i-use-globus-transfer-data-msi){:target="_blank"} to learn more about using Globus to transfer data to MSI.
 
 ## Globus Connect Personal
-Globus Connect Personal is a downloadable application that will create an endpoint on your local drive and allow you to easily transfer files back and forth. To download Globus Connect Personal, please follow [this link.](https://www.globus.org/globus-connect-personal)
+Globus Connect Personal is a downloadable application that will create an endpoint on your local drive and allow you to easily transfer files back and forth. To download Globus Connect Personal, please follow [this link.](https://www.globus.org/globus-connect-personal){:target="_blank"}
 
 ## Adding Bookmarks
 Bookmarks are useful for quickly navigating to frequently used file paths.

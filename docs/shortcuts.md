@@ -21,3 +21,5 @@ Every UMN user has access to 150TB of Tier 2.
 **Bold**
 *italics*
 <u>underline</u>
+
+#Open link in new tab [text](link){:target="_blank"}

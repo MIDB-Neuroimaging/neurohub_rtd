@@ -258,7 +258,7 @@ Stewardship is defined in the following table:
 
 ## Data
 
-To optimize computing resources the MSI offers two types of [storage](https://www.msi.umn.edu/content/storage-allocations): [High Performance Storage](https://www.msi.umn.edu/content/high-performance-storage) and [Second Tier Storage](https://www.msi.umn.edu/content/second-tier-storage). Data in the High Performance Storage is backed up and is accessible from all MSI system. Big data is stored in the Second Tier. Data for each particular project can be found on each PI’s space, depending on who leads each particular project. This table (make a md table describing ) summarizes the existing datasets in the DCAN.
+To optimize computing resources the MSI offers two types of [storage](https://www.msi.umn.edu/content/storage-allocations){:target="_blank"}: [High Performance Storage](https://www.msi.umn.edu/content/high-performance-storage){:target="_blank"} and [Second Tier Storage.](https://www.msi.umn.edu/content/second-tier-storage){:target="_blank"} Data in the High Performance Storage is backed up and is accessible from all MSI system. Big data is stored in the Second Tier. Data for each particular project can be found on each PI’s space, depending on who leads each particular project. This table (make a md table describing ) summarizes the existing datasets in the DCAN.
 
 DCAN’s High Performance Storage data is located here:
 

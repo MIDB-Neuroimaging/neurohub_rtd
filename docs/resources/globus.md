@@ -1,6 +1,6 @@
 # Globus
 
-[Globus](https://www.globus.org/) is a UI-facilitated secure file transfer system operated by the University of Chicago. Globus can be utilized to transfer files from your local storage to the Tier 1 or Tier 2 storage at MSI. 
+[Globus](https://www.globus.org/){:target="_blank"} is a UI-facilitated secure file transfer system operated by the University of Chicago. Globus can be utilized to transfer files from your local storage to the Tier 1 or Tier 2 storage at MSI. 
 
 
 ## Data Transfer and Sharing
@@ -10,7 +10,7 @@
 - **Integration with Storage Systems:** Globus seamlessly integrates with cloud storage, on-premises storage, and archival systems, allowing users to access and manage data across diverse storage platforms from a single interface.
 
 !!!note
-    Transferring to Tier 2 may require additional access from MSI, [see here for more details](https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-msi-0).
+    Transferring to Tier 2 may require additional access from MSI, [see here for more details.](https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-msi-0){:target="_blank"}
 
 ## Collaboration Tools
 
@@ -40,4 +40,4 @@
 
 Globus simplifies research data management, enabling researchers to focus on their work without worrying about data transfer, sharing, and collaboration challenges.
 
-For more information, visit the [Globus website](https://www.globus.org/).
+For more information, visit the [Globus website.](https://www.globus.org/){:target="_blank"}

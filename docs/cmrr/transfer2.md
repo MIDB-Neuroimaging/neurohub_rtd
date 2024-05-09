@@ -1,6 +1,6 @@
 ## Transfer from Naxos to Tier 2
 
-We recommend using [rclone](https://github.com/rclone/rclone) to transfer data to Tier 2. Transfers to Tier 2 are faster, more secure, and does not impact Tier 1 quota. 
+We recommend using [rclone](https://github.com/rclone/rclone){:target="_blank"} to transfer data to Tier 2. Transfers to Tier 2 are faster, more secure, and does not impact Tier 1 quota. 
 
 ### Installation and setup:
 
@@ -21,7 +21,7 @@ You will see a series of options. To set up a new config, type `n` and complete 
 * Provider: 3 (Ceph)
 * env_auth: leave blank, press enter to continue
 
-Next you'll be promted for your access_key_id and your secret_access_key which are specific to your umnID and can be located [here](https://www.msi.umn.edu/content/s3-credentials).
+Next you'll be promted for your access_key_id and your secret_access_key which are specific to your umnID and can be located [here.](https://www.msi.umn.edu/content/s3-credentials){:target="_blank"}
 
 * region: leave blank and press enter to continue
 * endpoint: s3.msi.umn.edu
