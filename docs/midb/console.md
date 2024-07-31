@@ -34,7 +34,7 @@ If you happen to run into any incidental findings during a scan, please follow t
 
 1. Export the structural data (T1, T2) to FV_PACS.
 2. Please be aware that if your scan was acquired using only one orientation (typically in the sagittal plane), you will need to reformat at least one of your 3D acquisitions in the other two directions before you send the data to PACS.
-3. Submit a radiologist scan review request.
+3. Submit a radiologist scan [review request](https://www.cmrr.umn.edu/scanreview/).
 4. When submitting your request please note the following:
     - Location/Event ID (this is the CMRR Calendar Event #)
     - Anonymized Patient Name (This MUST match what was typed into the patient name field on the MRI scanner or it will stop the process)

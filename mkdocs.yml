@@ -17,7 +17,13 @@ markdown_extensions:
   - md_in_html
 
 nav: 
-    - Welcome: index.md
+    - Home: index.md
+
+    - Getting Started: #overview
+        - General Overview: start/overview.md
+        - MIDB Overview: start/midb-over.md
+        - CMRR Overview: start/cmrr-over.md
+        - Roadmap to Success: start/roadmap.md
 
     - MSI 101: #msi
         - Getting access: msi/msi.md
