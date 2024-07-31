@@ -1,3 +1,4 @@
+# Safety and Operator Training
 There are two separate classes taught at CMRR for CMRR and MIDB users: Safety Training and Operator Training. 
 
 Safety Training will take place at CMRR for all users. 

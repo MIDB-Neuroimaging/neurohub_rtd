@@ -16,7 +16,7 @@ Data exported from CMRR scanners are usually pushed to the naxos node. Naxos is 
 ## Navigating to naxos
 
 1. Connect to the CMRR VPN. Use your UMN username and password. 
-2. Open a web browser and navigate to [https://login2.cmrr.umn.edu/.](https://login2.cmrr.umn.edu/){:target="_blank"} This will open an NX client. 
+2. Open a web browser and navigate to [https://login2.cmrr.umn.edu/.](https://login2.cmrr.umn.edu/){:target="_blank"}{:target="_blank"} This will open an NX client. 
 3. Use your CMRR username and CMRR password. 
 4. Open a new virtual desktop and click "OK" through to the remote desktop. 
 5. Click "Activities" then click on the Terminal icon to open a terminal. 
