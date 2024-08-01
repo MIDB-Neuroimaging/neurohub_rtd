@@ -19,26 +19,44 @@
 [Research engagement requests](https://midb.umn.edu/research-services/engage-midb-service-hubs/process-engagement-request){:target="_blank"} are filled out on the MIDB website. If your project has multiple facets in need of assistance, requests for service can include [multiple Hubs!](../start/midb-over.md){:target="_blank"} Once the request is received and approved, a project manager will be assigned and reach out about scheduling a technical meeting. Technical meetings include the PI, study team, and specialists from the requested Hubs to address questions, deliverables, and timelines for the project. Sometimes requests for multiple Hubs may need additional attention, in these cases technical meetings with each Hub may be necessary.
 
 ## CMRR Access
+
+### General Building Access
 General building access can be granted after registering with CMRR and completing the following trainings:
+
 - CMRR Safety Training: Basic
 - Radiation Safety Orientation
 - Introduction to Research Safety
 - Chemical Safety
 - Blood Borne Pathogen Training
+
+### MRI Room Access
 In addition to this list, Human MR access requires the following trainings:
+
 - CMRR Safety Training:Advanced 
 - CMRR Safety Training: Human
 
-While these trainings are not required for CMRR building access, they will be needed to be completed by study team members conducting reserch with human participants:
+While these trainings are not required for CMRR building and MRI room access, they will be needed to be completed by study team members conducting reserch with human participants:
+
 - HIPAA
 - CITI Training
+
 A full list of trainings can be found on the [CMRR Safety page.](https://www.cmrr.umn.edu/safety/){:target="_blank"} These trainings can also be found on the [University Training Hub](https://training.umn.edu/){:target="_blank"} website.
 More information on CMRR access can be found on our [CMRR Access page.](../cmrr/user.md){:target="_blank"}
 
 ## Operator Training
-Operator training is required to sit first chair and conduct scans on any CMRR MRI.
+Operator training is required to sit first chair and conduct scans on any CMRR MRI. In addition to the training courses listed above, researchers must complete an on-site safety course and 3T operator training course at CMRR.
+
+!!!note
+    To operate the 3T-D scanner at MIDB, you must first schedule a 3T-D orientation with a Neuroimaging Specialist.
+
 More information on operator trainings can be found on our [CMRR Human Research Training page.](../cmrr/operator.md){:target="_blank"}
 
 ## Getting Access to MIDB
+### Building Access
+To gain building access to MIDB...
+
+### 3T-D Access
+Once you have completed the CMRR required training, email your training record to Jon Lem (lem00006@umn.edu), the CMRR Facilities Coordinator, and request 3T-D access. CC the PI(s) on the study + Steve Nelson (smnelson@umn.edu), the Neuroimaging Core Director. 
+
 See our [MIDB page.](../midb/midbaccess.md){:target="_blank"}
 

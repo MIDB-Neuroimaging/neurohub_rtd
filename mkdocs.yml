@@ -25,31 +25,32 @@ nav:
         - CMRR Overview: start/cmrr-over.md
         - Roadmap to Success: start/roadmap.md
 
-    - MSI 101: #msi
-        - Getting access: msi/msi.md
-        - Transferring data on MSI: msi/transfer.md
-        - For PIs - Activate and maintain your share: msi/maintenance.md
-        - For PIs - Make changes to your share: msi/changes.md      
-        
     - CMRR: #cmrr
         - Registration and Access: cmrr/user.md
         - Human Research Training: cmrr/operator.md
         - CMRR Servers (accessing your data): cmrr/naxos.md
         - Transfering data from CMRR: cmrr/transfer2.md
         - Help! Where is my data?: cmrr/search.md
-    
+
     - MIDB: #midb
         - MIDB Imaging Suite: midb/midbaccess.md
         - CNBD Access: midb/cnbd.md
         - At The Console: midb/console.md
         - Safety at MIDB: midb/safety.md
         - FAQs: midb/faqs.md
+    
+    - MSI 101: #msi
+        - Getting access: msi/msi.md
+        - Transferring data on MSI: msi/transfer.md
+        - For PIs - Activate and maintain your share: msi/maintenance.md
+        - For PIs - Make changes to your share: msi/changes.md      
 
     #- Data Storage Options:
 
     - Data Handling on MSI: #usingmsi
         - Troubleshooting: usingmsi/troubleshooting.md 
         - Using MSI: usingmsi/location.md 
+    
     - Resources: #what is basecamp
         - What is Basecamp?: resources/basecamp.md
         - What is Globus?: resources/globus.md

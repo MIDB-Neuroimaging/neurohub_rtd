@@ -17,7 +17,7 @@ The [Analytics Hub](https://midb.umn.edu/research/analytics){:target="_blank"} o
 The [Informatics Hub](https://midb.umn.edu/research/informatics){:target="_blank"} offers support and consultation for the life cycle of research data.
 
 ### Neuroimaging
-The [Neuroimaging Hub](https://midb.umn.edu/research/neuroimaging){:target="_blank"} assists with getting researchers access and training to operate and collect data on the 3TD MRI at MIDB. Our team, lead by Steve Nelson the Hub director, provide consultation on study design and scanning parameters. Our Neuroimaging Specialists are adept at building specialized protocols and tasks catered to your project needs. Additionally Technicians and Infant Scanning Specialists are available to assist with data collection.
+The [Neuroimaging Hub](https://midb.umn.edu/research/neuroimaging){:target="_blank"} assists with getting researchers access and training to operate and collect data on the 3T-D MRI at MIDB. Our team, lead by Steve Nelson the Hub director, provide consultation on study design and scanning parameters. Our Neuroimaging Specialists are adept at building specialized protocols and tasks catered to your project needs. Additionally Technicians and Infant Scanning Specialists are available to assist with data collection.
 
 ### Neuromodulation
 [Neuromodulation](https://midb.umn.edu/research/neuromodulation){:target="_blank"} develops and reseraches non-invasive pediatric interventions to improve pediatric outcomes.
