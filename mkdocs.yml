@@ -32,8 +32,8 @@ nav:
         - For PIs - Make changes to your share: msi/changes.md      
         
     - CMRR: #cmrr
-        - Step 1 - Registration and Access: cmrr/user.md
-        - Step 2 - Human Research Training: cmrr/operator.md
+        - Registration and Access: cmrr/user.md
+        - Human Research Training: cmrr/operator.md
         - CMRR Servers (accessing your data): cmrr/naxos.md
         - Transfering data from CMRR: cmrr/transfer2.md
         - Help! Where is my data?: cmrr/search.md
