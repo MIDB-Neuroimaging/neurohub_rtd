@@ -1,0 +1,29 @@
+# Main title
+
+## Tier 2 title
+
+### Tier 3 title
+
+!!! tip
+    tip
+
+!!! note
+    note
+
+!!! warning
+    warning
+
+!!! danger
+    danger
+
+**Bold**
+*italics*
+<u>underline</u>
+
+Open link in new tab [text](link){:target="_blank"}
+
+insert picture with caption, space between picture and caption, and center
+<figure markdown="span" align='center'>
+    ![scanner](../images/scanner.jpg)
+    <figcaption style='margin-top: 10px;'>3T-D scanner at MIDB</figcaption>
+</figure>

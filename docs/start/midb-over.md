@@ -1,4 +1,8 @@
 # MIDB Overview
+<figure markdown="span" align='center'>
+    ![midb](../images/midb.jpg)
+</figure>
+
 MIDB is home to multiple research hubs devoted to fostering innovative and inspirational research on brain development. You can learn more about the MIDB Clinic, research hubs, community, events, and more on our website [https://midb.umn.edu/](https://midb.umn.edu/){:target="_blank"}. If you have any questions, please reach out to midbresearch@umn.edu.
 
 ## Research Hubs at MIDB

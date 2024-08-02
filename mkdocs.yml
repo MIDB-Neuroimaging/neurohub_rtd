@@ -2,7 +2,7 @@ site_name: MIDB Neuroimaging Hub readthedocs
 
 theme: 
     name: readthedocs
-    logo: brain-illustrations1.png
+    logo: images/brain-illustrations1.png
     
 plugins:
     - search
