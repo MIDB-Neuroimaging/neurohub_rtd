@@ -32,7 +32,7 @@ General building access can be granted after registering with CMRR and completin
 ### MRI Room Access
 In addition to this list, Human MR access requires the following trainings:
 
-- CMRR Safety Training:Advanced 
+- CMRR Safety Training: Advanced 
 - CMRR Safety Training: Human
 
 While these trainings are not required for CMRR building and MRI room access, they will be needed to be completed by study team members conducting reserch with human participants:
