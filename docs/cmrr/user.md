@@ -1,4 +1,4 @@
-#The Center for Magnetic Resonance Research (CMRR)
+# The Center for Magnetic Resonance Research (CMRR)
 
 ## About CMRR
 
@@ -40,14 +40,29 @@ There are various levels of access to CMRR's resources. Different trainings are 
 
 If you will be transferring data from CMRR servers to MSI, then you will need access to CMRR's servers and the CMRR VPN. 
 
-Check access:
+**Check access:**
 
 1. Navigate to your [CMRR profile.](https://www.cmrr.umn.edu/access/user/my.profile.php){:target="_blank"} If there is a button that says "Change CMRR server password" then you have access (and you might need to change your password if you don't remember what it is).
 
 2. Log in to the CMRR VPN with your umnID and password. If you have server access but run into issues with logging on with the VPN, put in a help ticket with CMRR (help@cmrr.umn.edu). 
 
-Request access: Put in a help ticket to CMRR (help@cmrr.umn.edu) with the subject line: CMRR VPN access. CC your supervisor and request CMRR VPN and server access. 
+**Request access:** Put in a help ticket to CMRR (help@cmrr.umn.edu) with the subject line: CMRR VPN access. CC your supervisor and request CMRR VPN and server access. 
 
+**Gain Access:**
+
+1. Ensure you have Cisco Anyconnect Secure Mobility Client installed. If you do not, follow [this link](https://it.umn.edu/services-technologies/virtual-private-network-vpn){:target="_blank"} for assistance.
+
+2. Open Cisco Anyconnect and select UMN - Departmental Pools from the drop-down menu. Click connect.
+
+3. Under group, select "Anyconnect-CMRR" and enter your UMN x500 id and password in the appropriate fields.
+
+!!! note
+    You will need to use Duo Authentication so have your phone handy!
+
+### Connecting to CMRR Servers
+Once you have VPN and server access, you should be able to connect to the CMRR servers. For more information on connecting ot CMRR servers, see our [CMRR Servers page.](../cmrr/naxos.md){:target="_blank"}
+
+For a full list of solutions to computer-related questions at CMRR, please [follow this link.](https://www.cmrr.umn.edu/computeruser/){:target="_blank"}
 
 ### Calendar access
 

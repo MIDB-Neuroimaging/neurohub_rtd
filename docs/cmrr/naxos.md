@@ -3,12 +3,12 @@
 ## Naxos
 Data exported from CMRR scanners are usually pushed to the naxos node. Naxos is the dicom reciever hosted by CMRR. To access data on naxos, you must:
 
-1. be a registered user of CMRR 
-2. have access to CMRR's VPN 
-3. have basic knowledge of the command line
+1. Be a registered user of CMRR 
+2. Have access to CMRR's VPN 
+3. Have basic knowledge of the command line
 
 !!! note
-    If you don't have CMRR access yet or are not sure if you have VPN access, follow the instructions here. 
+    If you don't have CMRR access yet or are not sure if you have VPN access, follow the instructions [here.](../cmrr/user.md){:target="_blank"}
 
 !!! note
     If you don't know how to use the command line yet or need a refresher, check out the [Unix tutorial](https://andysbrainbook.readthedocs.io/en/latest/unix/Unix_Intro.html){:target="_blank"} at Andy's Brain Book. 
@@ -16,7 +16,7 @@ Data exported from CMRR scanners are usually pushed to the naxos node. Naxos is 
 ## Navigating to naxos
 
 1. Connect to the CMRR VPN. Use your UMN username and password. 
-2. Open a web browser and navigate to [https://login2.cmrr.umn.edu/.](https://login2.cmrr.umn.edu/){:target="_blank"}{:target="_blank"} This will open an NX client. 
+2. Open a web browser and navigate to [https://login2.cmrr.umn.edu/.](https://login2.cmrr.umn.edu/){:target="_blank"} This will open an NX client. 
 3. Use your CMRR username and CMRR password. 
 4. Open a new virtual desktop and click "OK" through to the remote desktop. 
 5. Click "Activities" then click on the Terminal icon to open a terminal. 
