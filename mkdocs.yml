@@ -33,7 +33,7 @@ nav:
         - Help! Where is my data?: cmrr/search.md
 
     - MIDB: #midb
-        - MIDB Imaging Suite: midb/midbaccess.md
+        - MIDB Access: midb/midbaccess.md
         - CNBD Access: midb/cnbd.md
         - At The Console: midb/console.md
         - Safety at MIDB: midb/safety.md

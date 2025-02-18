@@ -53,10 +53,10 @@ More information on operator trainings can be found on our [CMRR Human Research 
 
 ## Getting Access to MIDB
 ### Building Access
-To gain building access to MIDB...
+To gain building access to MIDB please fill out the [Employee/Student Access Form.](https://facilities.umn.edu/our-services/research-facility-support-services-rfss/rfss-building-access/rfss-research-building){:target="_blank"} Once filled out please notify your PI as well as your MIDB project manager. If you do not have a lead project manager from one of the research hubs at MIDB please [submit a research engagement request.](https://midb.umn.edu/research-services/engage-midb-service-hubs/process-engagement-request){:target="_blank"} If you've already submitted an engagement request, please email midbresearch@umn.edu.
 
 ### 3T-D Access
 Once you have completed the CMRR required training, email your training record to Jon Lem (lem00006@umn.edu), the CMRR Facilities Coordinator, and request 3T-D access. CC the PI(s) on the study + Steve Nelson (smnelson@umn.edu), the Neuroimaging Core Director. 
 
-See our [MIDB page.](../midb/midbaccess.md){:target="_blank"}
+For more in-depth information, please visit our [MIDB Access page.](../midb/midbaccess.md){:target="_blank"}
 
