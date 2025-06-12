@@ -1,0 +1,14 @@
+# Equipment available at MIDB
+- **NordicNeuroLab Tablet and VisualSystem HD**
+    - Automated synchronization of tasks/visual stimuli and MRI scan
+    - HD goggles capable of eye-tracking data collection
+- **OptoActive Headphones**
+    - MRI safe headphones with active noise canceling to reduce in-scanner background noise
+- **MReyes Camera**
+    - Provides a clear view of the participant’s eyes to monitor alertness and changes in gaze
+- **Framewise Integrated Real-time MRI Monitoring (FIRMM); FIRMM-pix, developed by NOUS Imaging**
+    - Provides real-time monitoring of patient movement to scanner operators
+    - FIRMM-pix combines gamification and real-time biofeedback to participants to minimize motion and improve brain MRI data quality.
+- **Mock Scanner suite**
+    - Allows participants to experience the feel of an MRI before the real scan
+    - Helps reduce anxieties and prepare children for what to expect

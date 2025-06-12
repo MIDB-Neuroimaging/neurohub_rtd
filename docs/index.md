@@ -1,6 +1,6 @@
-Neuroimaging Hub RTDs
+# Welcome!
 
-Welcome to the Neuroimaging Hub at MIDB, we are excited to have you onboard! This website will serve as a great resource for general onboarding and access questions. If you have any issues with the website or questions that are not answered here, feel free to reach out to our team at midbresearch@umn.edu
+Welcome to the Neuroimaging Hub at MIDB, we are excited to have you onboard! This website will serve as a great resource for general onboarding and access questions. If you have any issues with the website or questions that are not answered here, feel free to reach out to our team at <midbresearch@umn.edu>
 
 
 <figure markdown="span" align='center'>

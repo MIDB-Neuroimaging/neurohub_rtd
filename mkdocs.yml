@@ -1,4 +1,4 @@
-site_name: MIDB Neuroimaging Hub readthedocs
+site_name: MIDB Neuroimaging Hub
 
 theme: 
     name: readthedocs
@@ -20,8 +20,9 @@ nav:
     - Home: index.md
 
     - Getting Started: #overview
-        - General Overview: start/overview.md
+        - Hub Overview: start/overview.md
         - MIDB Overview: start/midb-over.md
+        - Equipment Overview: start/equipment.md
         - CMRR Overview: start/cmrr-over.md
         - Roadmap to Success: start/roadmap.md
 
@@ -36,6 +37,7 @@ nav:
         - MIDB Access: midb/midbaccess.md
         - CNBD Access: midb/cnbd.md
         - At The Console: midb/console.md
+        - Troubleshooting: midb/troubleshoot.md
         - Safety at MIDB: midb/safety.md
         - FAQs: midb/faqs.md
     
