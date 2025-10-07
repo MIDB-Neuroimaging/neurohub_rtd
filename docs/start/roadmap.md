@@ -56,7 +56,13 @@ More information on operator trainings can be found on our [CMRR Human Research 
 To gain building access to MIDB please fill out the [Employee/Student Access Form.](https://facilities.umn.edu/our-services/research-facility-support-services-rfss/rfss-building-access/rfss-research-building){:target="_blank"} Once filled out please notify your PI as well as your MIDB project manager. If you do not have a lead project manager from one of the research hubs at MIDB please [submit a research engagement request.](https://midb.umn.edu/research-services/engage-midb-service-hubs/process-engagement-request){:target="_blank"} If you've already submitted an engagement request, please email midbresearch@umn.edu.
 
 ### 3T-D Access
-Once you have completed the CMRR required training, email your training record to Jon Lem (lem00006@umn.edu), the CMRR Facilities Coordinator, and request 3T-D access. CC the PI(s) on the study + Steve Nelson (smnelson@umn.edu), the Neuroimaging Core Director. 
+Once you have completed the CMRR required training, email your training record to Jon Lem (lem00006@umn.edu), the CMRR Facilities Coordinator, and request 3T-D access. CC the PI(s) on the study + Steve Nelson (smnelson@umn.edu), the Neuroimaging Core Director. Your safety trainings will be reviewed, and if the online trainings are completed Jon will refer you to our Project Manager. They will schedule your 3T-D orientation with a tech.
+
+### 3T-D Orientation
+The orientation takes between 25-30 minutes, and gives users an overview of the safety procedures at MIDB as they may differ from CMRR.
+
+!!!note
+    The 3T-D orientation must be completed before users are given card access to the magnet room. This includes second chair operators or anyone planning to spend time in the magnet room. 
 
 For more in-depth information, please visit our [MIDB Access page.](../midb/midbaccess.md){:target="_blank"}
 
