@@ -2,6 +2,7 @@
 - **NordicNeuroLab Tablet and VisualSystem HD**
     - Automated synchronization of tasks/visual stimuli and MRI scan
     - HD goggles capable of eye-tracking data collection
+    - For more information, please see the [system brochure.](https://info.nordicneurolab.com/l/877162/2025-11-05/f21cwn/877162/1762346384PbjoIEtD/NL_100_0088_09_VisualSystem_HD_Brochure.pdf){:target="_blank"}
 - **OptoActive Headphones**
     - MRI safe headphones with active noise canceling to reduce in-scanner background noise
 - **MReyes Camera**
