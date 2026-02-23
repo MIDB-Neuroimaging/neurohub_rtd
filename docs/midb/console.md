@@ -29,6 +29,16 @@ Always export your data when your session is over AND check that it arrived. Dou
 ### Export Data to CD/DVD
 A portable DVD burner is in the control room (it's on the shelf above the mac) that can be plugged into the console tower. Extra CDs are also in the control room.
 
+## Matrix Switch
+The matrix switch centralizes all the peripheral visual/audio scanning equipment which allows users to use any combination of the available inputs/outputs.
+1. The matrix switch is controlled by SMX application on the 3TD Control Computer
+    - Launch the application and select ‘Comm 3’
+    - There is no password, just hit enter 
+2. Drag and drop icons from the input (IN) column to the output (OUT) column to connect them. A line will appear between the two icons if the connection was successful.
+<figure markdown="span" align='center'>
+    ![](../images/matrix.png)
+</figure>
+
 ## Incidental Findings
 If you happen to run into any incidental findings during a scan, please follow these steps:
 
@@ -42,18 +52,12 @@ If you happen to run into any incidental findings during a scan, please follow t
     - Description of MRI Series Sent
     - Select a Body Part from the drop down
     - Questions for reviewer (if any)
-
-5. Send email to CMMR technologists Matt White and Wendy Elvendahl (whit3045@umn.edu, welvenda@umn.edu) letting them know a request has been entered.
-6. If the Radiologist indicates that clinical follow-up is warranted you must contact the subject to relay that information and you must log back into the radiologist scan review system to confirm that the subject has been contacted.
-
-
-## Housekeeping
-
-The Control Room can become cluttered very easily. Participants should utilize lockers in the change rooms for their belongings. Researchers should minimize personal belongings in the control room as much as possible. 
-
-Please leave the Magnet Room neat and tidy for the next user. Put away all foams, head coils, and peripheral equipment. White linens should be deposited in the marked bins. 
-
-Garbage and recycling will not be collected from the Control Room. If you are the last scan of the day, please move the bins to the Waiting Area outside the Control Room.
-
 !!! note
-    Report any broken or missing equipment to Kim Weldon (kweldon@umn.edu) or Jess Emerick (emeri036@umn.edu) so that it can be replaced or repaired ASAP.
+    IMPORTANT: The “Patient ID” field cannot have any underscores. If it does, it will crash the Fairview servers.
+    - If you typically use underscores in the Patient ID field:
+        - Open the patient browser
+        - Right click on your subject and select ‘correct’
+        - Select the patient tab and edit the patient ID to remove the underscore
+        - Hit ‘OK’
+5. Send email to CMMR technologist Matt White (whit3045@umn.edu) letting them know a request has been entered.
+6. If the Radiologist indicates that clinical follow-up is warranted you must contact the subject to relay that information and you must log back into the radiologist scan review system to confirm that the subject has been contacted.

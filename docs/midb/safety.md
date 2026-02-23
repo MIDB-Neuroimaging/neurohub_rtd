@@ -1,5 +1,31 @@
 # Safety at MIDB
 
+## Emergency Protocols
+!!! note
+    Dial 911 for Police, Fire, and Life Threatening Emergencies
+
+!!! warning
+    Meet responders at the front door and communicate the dangers of the facility. Do not allow them to enter the magnet room without being screened and briefed.
+
+**Building:** Masonic Institute for the Developing Brain   
+**Room:** 2-195 
+**Address:** 2025 East River Parkway, Minneapolis, MN 55414
+
+### **Medical Emergencies**
+1. Dial 911 
+2. Remove subject from scanner and/or magnet room if possible (MR Safe wheelchair is located in the equipment room) 
+a. If and Only If emergency involves a ferrous object pinning someone against the magnet, initiate magnet quench 
+3. Administer CPR if required (AED is located on the second floor near the elevator, and on the first floor near the food market, green two-way breathing values are located in the control room) 
+4. Meet responding personnel at the front door, escort them to the subject, and communicate dangers of the facility.
+
+### **Fire**
+1. Dial 911 
+2. Remove subject/personnel from scanner and/or magnet room 
+3. If feasible, perform electrical shutdown of magnet 
+4. If deemed safe/appropriate, attempt to extinguish fire using blue and white fire extinguisher only (MR safe extinguisher is located in the equipment room) 
+5. Meet responding personnel at the front door and communicate the dangers of the facility.
+
+## MRI Safety
 Participants must change into scrubs in order to be scanned. 
 !!! warning
     Warn of unlikely but possible heating of tattoos or underwire. Check carefully for artifacts in your data before continuing. Artifacts are occasionally caused by underwire, bra clasps, hair ties, nail polish, etc.
@@ -16,7 +42,7 @@ Serious error or mishap that had the potential to cause an unanticipated problem
 Any unplanned or unanticipated event which caused or could have caused personal injury, environmental damage or property loss. 
 
 
-## Hearing Protection
+### Hearing Protection
 
 Switching currents in the gradient coils for imaging purposes leads to noise development during the MR examination which can exceed 99 dB in the bore. 
 

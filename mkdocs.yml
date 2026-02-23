@@ -36,9 +36,11 @@ nav:
     - MIDB: #midb
         - MIDB Access: midb/midbaccess.md
         - CNBD Access: midb/cnbd.md
+        - Courteous Usage: midb/use.md
         - At The Console: midb/console.md
         - Troubleshooting: midb/troubleshoot.md
         - Safety at MIDB: midb/safety.md
+        - Floor Plans: midb/floor.md
         - FAQs: midb/faqs.md
     
     - MSI 101: #msi

@@ -5,7 +5,7 @@ Sometimes CNBD space is required. To gain access to CNBD space please follow the
 
 1. Email cnbd@umn.edu to let them know a request will be submitted for CNBD access. Provide the individual’s name, x500, lab association, CTSI study ID, and role on the project. 
 2. Submit an [CNBD Access Request Form.](https://docs.google.com/forms/d/e/1FAIpQLSflBTZUtfbhfKIYvyXYR8qQGr_1vRTiG53Gcafy2h9xNpMpRw/viewform){:target="_blank"}
-3. Submit an [Employee/Student Access](https://rbmsforms.ahc.umn.edu/home.cfm){:target="_blank"} form on the [RFSS website.](https://facilities.umn.edu/our-services/research-facility-support-services-rfss/rfss-building-access/rfss-research-building){:target="_blank"}  
+3. Submit an [Employee/Student Access](https://rbmsforms.ahc.umn.edu/form.cfm?formtype=person){:target="_blank"} form on the [RFSS website.](https://facilities.umn.edu/our-services/research-facility-support-services-rfss/rfss-building-access/rfss-research-building){:target="_blank"}  
     - PI/Facility: CNBD 
     - Work Location: MIDB
     - CNBD will submit the Supervisor Approval Form

@@ -10,7 +10,7 @@
 
 ## Shutting down to the wall
 !!! warning
-    Please try to restart the computer prior shutting down to the wall to see if the problem resolves.
+    Please try to restart the computer prior to shutting down to the wall to see if the problem resolves.
 
 ## Audio Not Working (NNL disconnected / forgets it has speakers)
 1. Go to device manager
@@ -19,3 +19,8 @@
 
 
 # Call Tree
+1. 3TD-help Slack Channel
+    - Not a member of the channel? Ask Jess to be added.
+2. Jess Emerick  
+3. Kim Weldon 
+4. Steve Nelson 

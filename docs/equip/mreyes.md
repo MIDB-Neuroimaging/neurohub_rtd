@@ -16,5 +16,4 @@ Provides a clear view of the participant’s eyes to monitor alertness and chang
 </figure>
 
 **Control Room System Set Up**
-
 - Open photobooth on the Mac
