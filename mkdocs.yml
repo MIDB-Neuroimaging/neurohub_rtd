@@ -30,7 +30,7 @@ nav:
         - Registration and Access: cmrr/user.md
         - Human Research Training: cmrr/operator.md
         - CMRR Servers (accessing your data): cmrr/naxos.md
-        - Transfering data from CMRR: cmrr/transfer2.md
+        - Transferring data from CMRR: cmrr/transfer2.md
         - Help! Where is my data?: cmrr/search.md
 
     - MIDB: #midb

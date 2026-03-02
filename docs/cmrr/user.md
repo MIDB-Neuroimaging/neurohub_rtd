@@ -27,7 +27,7 @@ There are various levels of access to CMRR's resources. Different trainings are 
 2. **Magnet access:** 
     * Someone who needs card access to any of CMRR's magnets but will not be operating the scanners or be interacting with human participants (e.g., someone working with peripheral equipment or console computers). 
 3. **Human research access:** 
-    * Someone who is planning to be present at scans with human subjets but will not operate the scanner (e.g., study coordinators, study support staff, etc.).
+    * Someone who is planning to be present at scans with human subjects but will not operate the scanner (e.g., study coordinators, study support staff, etc.).
 4. **Phantom access:** 
     * Someone who is planning on operating the scanner to acquire data on phantoms but not human subjects. 
 5. **Operator access:** 
@@ -35,6 +35,7 @@ There are various levels of access to CMRR's resources. Different trainings are 
 
 !!! note
     Anyone who needs human research access or operator access at a scanner is required to be CPR certified. 
+    CPR training is occasionally [offered at CMRR](https://www.cmrr.umn.edu/access/user/classes.php?classname=CPR){:target="_blank"}, and can also be done at the [RecWell Center](https://shoprecwell.umn.edu/Program/GetProgramDetails?courseId=0666bc3c-c4cd-48e5-b49c-b8014683bd7d){:target="_blank"}, or with an [external training agency.](https://chanceforlifecpr.com/cpr-classes){:target="_blank"}
  
 ### VPN access
 
@@ -60,13 +61,13 @@ If you will be transferring data from CMRR servers to MSI, then you will need ac
     You will need to use Duo Authentication so have your phone handy!
 
 ### Connecting to CMRR Servers
-Once you have VPN and server access, you should be able to connect to the CMRR servers. For more information on connecting ot CMRR servers, see our [CMRR Servers page.](../cmrr/naxos.md){:target="_blank"}
+Once you have VPN and server access, you should be able to connect to the CMRR servers. For more information on connecting to CMRR servers, see our [CMRR Servers page.](../cmrr/naxos.md){:target="_blank"}
 
 For a full list of solutions to computer-related questions at CMRR, please [follow this link.](https://www.cmrr.umn.edu/computeruser/){:target="_blank"}
 
 ### Calendar access
 
-The CMRR calendar system is used to book magnet time for projects. Every study that uses CMRR resources has a 5 digit CMRR project number (10XXX). This number is generated once the PARS application is approved. 
+The [CMRR calendar](https://www.cmrr.umn.edu/sysadmin/database2/myview2.php){:target="_blank"} system is used to book magnet time for projects. Every study that uses CMRR resources has a 5 digit CMRR project number (10XXX). This number is generated once the PARS application is approved. 
 
 Check access:
 

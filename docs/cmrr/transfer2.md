@@ -21,7 +21,7 @@ You will see a series of options. To set up a new config, type `n` and complete 
 * Provider: 3 (Ceph)
 * env_auth: leave blank, press enter to continue
 
-Next you'll be promted for your access_key_id and your secret_access_key which are specific to your umnID and can be located [here.](https://www.msi.umn.edu/content/s3-credentials){:target="_blank"}
+Next you'll be prompted for your access_key_id and your secret_access_key which are specific to your umnID. More info on SSH can be located [here.](https://msi.umn.edu/getting-started/getting-started-and-access/interactive-connections-faqs/how-do-i-setup-ssh-keys){:target="_blank"}
 
 * region: leave blank and press enter to continue
 * endpoint: s3.msi.umn.edu

@@ -22,9 +22,9 @@ Basic protocol for scanning adults or children, adjust for younger participants.
 4. Return leg rest to cabinet
     - Black leg rests return to cabinet, gray leg rest can lean against the cabinet next to the biohazard linens bag
 5. Discard earplugs (for avotec, make sure white connector attached to avotec tubes is not discarded) and microphone cover (optoacoustics)
-<figure markdown="span" align='center'>
-    ![](../images/table.png)
-</figure>
+    <figure markdown="span" align='center'>
+        ![](../images/table.png)
+    </figure>
 6. Turn off NNL screen, eye camera, and/or projector
 7. Return NNL screen to back right corner of the room
 8. Return table to home position
