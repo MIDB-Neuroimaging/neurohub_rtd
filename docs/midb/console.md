@@ -31,6 +31,7 @@ A portable DVD burner is in the control room (it's on the shelf above the mac) t
 
 ## Matrix Switch
 The matrix switch centralizes all the peripheral visual/audio scanning equipment which allows users to use any combination of the available inputs/outputs.
+
 1. The matrix switch is controlled by SMX application on the 3TD Control Computer
     - Launch the application and select ‘Comm 3’
     - There is no password, just hit enter 

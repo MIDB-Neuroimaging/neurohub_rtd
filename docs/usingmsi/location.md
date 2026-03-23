@@ -2,7 +2,7 @@
 
 ## Permissions
 
-To ensure the data and code created can be accessed by all, update you bashrc with the following steps:
+To ensure the data and code created can be accessed by all, update your bashrc with the following steps:
 
 - Open your bashrc file with a text editor
   - emacs ~/.bashrc

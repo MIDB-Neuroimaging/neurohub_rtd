@@ -27,3 +27,6 @@ insert picture with caption, space between picture and caption, and center
     ![scanner](../images/scanner.jpg)
     <figcaption style='margin-top: 10px;'>3T-D scanner at MIDB</figcaption>
 </figure>
+
+highlight text
+<mark>Text you want to highlight</mark>
