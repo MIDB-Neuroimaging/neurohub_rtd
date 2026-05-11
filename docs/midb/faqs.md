@@ -14,3 +14,6 @@ Touchdown spaces are open, collaborative areas inside the MIDB that do not requi
 CNBD touchdown spaces are located in 2-130 and 2-142 (spaces on either side of the atrium). 
 
 The CNBD printer and copier are located in 2-130 (across the hall from the imaging suite).
+
+## Photo / Media Release
+Participants, families, and children photographed for use in presentations or web presence or other study communications can fill out the official Media release form of UMN, Managed by the Med School. The [UMN form is here.](https://redcap.ahc.umn.edu/redcap/surveys/?s=YKNLMDDHA9FTMTAK){:target="_blank"}

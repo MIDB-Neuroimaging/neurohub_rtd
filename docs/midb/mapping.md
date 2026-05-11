@@ -34,6 +34,6 @@ This SOP outlines how to map to a CMRR server (i.e. Naxos) from the 3T-D console
 
 
 ## CMRR Reference Docs
-- [PC](https://www.cmrr.umn.edu/computeruser/nc-cms/content/upload/C103-02-ConnectingPCstoCMRRserverfileshares1.2.){:target="_blank"}pdf  
+- [PC](https://www.cmrr.umn.edu/computeruser/nc-cms/content/upload/C103-02-ConnectingPCstoCMRRserverfileshares1.2.pdf){:target="_blank"}
 - [Mac](https://www.cmrr.umn.edu/computeruser/nc-cms/content/upload/C104-01-ConnectingyourMactotheCMRRnetwork1.3.pdf){:target="_blank"} 
 

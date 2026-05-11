@@ -1,4 +1,6 @@
 # Courteous Usage of the MRI Suite
+!!! note
+    You must include time for setup and takedown in addition to the length of your protocol when reserving time on the 3-TD.
 
 ## Setup
 Basic protocol for scanning adults or children, adjust for younger participants.
