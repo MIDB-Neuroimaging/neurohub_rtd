@@ -3,13 +3,13 @@
     - Automated synchronization of tasks/visual stimuli and MRI scan
     - HD goggles capable of eye-tracking data collection
     - For more information, please see the [system brochure.](https://info.nordicneurolab.com/l/877162/2025-11-05/f21cwn/877162/1762346384PbjoIEtD/NL_100_0088_09_VisualSystem_HD_Brochure.pdf){:target="_blank"}
-- **OptoActive Headphones**
+- [**OptoActive Headphones**](../equip/opto.md)
     - MRI safe headphones with active noise canceling to reduce in-scanner background noise
-- **MReyes Camera**
+- [**MReyes Camera**](../equip/mreyes.md)
     - Provides a clear view of the participant’s eyes to monitor alertness and changes in gaze
-- **Framewise Integrated Real-time MRI Monitoring (FIRMM); FIRMM-pix, developed by NOUS Imaging**
+- [**Framewise Integrated Real-time MRI Monitoring (FIRMM); FIRMM-pix, developed by NOUS Imaging**](../equip/firmm.md)
     - Provides real-time monitoring of patient movement to scanner operators
     - FIRMM-pix combines gamification and real-time biofeedback to participants to minimize motion and improve brain MRI data quality.
-- **Mock Scanner suite**
+- [**Mock Scanner suite**](../equip/mock.md)
     - Allows participants to experience the feel of an MRI before the real scan
     - Helps reduce anxieties and prepare children for what to expect
