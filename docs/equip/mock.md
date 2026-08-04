@@ -9,7 +9,7 @@ This is our practice scanner. The practice scanner room is located next to the s
 ## Mock Scanner MRI Sounds
 Here you can preview and download MRI sounds. These sounds can be played for participants so they will know what to expect when they get into the scanner.
 
-- <a href="/downloads/Siemens_Localizer.wav" download="Siemens_Localizer.wav">Siemens_Localizer</a>
+- <a href="/docs/downloads/Siemens_Localizer.wav" download="Siemens_Localizer.wav">Siemens_Localizer</a>
 - <a href="/downloads/Siemens_PD-T2.wav" download="Siemens_PD-T2.wav">Siemens_PD-T2</a>
 - <a href="/downloads/Siemens_DTI.wav" download="Siemens_DTI.wav">Siemens_DTI</a>
 - <a href="/downloads/CryogenicPump.wav" download="CryogenicPump.wav">CryogenicPump</a>
