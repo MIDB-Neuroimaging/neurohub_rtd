@@ -1,4 +1,7 @@
 # MIDB Access
+To gain UCard access to MIDB, please fill out the [Employee/Student Access Form through RFSS.](https://facilities.umn.edu/our-services/research-facility-support-services-rfss/rfss-research-building-access/rfss-research){:target="_blank"}
+
+## 3TD Scanner Access
 To scan human subjects, researchers must be 3T Operator Certified through CMRR. 
 !!! note
     Scanning infants or young children have additional considerations and training requirements along with the required CMRR training.

@@ -4,3 +4,8 @@ This is our practice scanner. The practice scanner room is located next to the s
 <figure markdown="span" align='center'>
     ![](../images/mock1.jpg)
 </figure>
+
+
+## Mock Scanner MRI Sounds
+
+[Download Siemens_DTI.wav](../downloads/Siemens_DTI.wav)
