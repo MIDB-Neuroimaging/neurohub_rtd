@@ -17,8 +17,7 @@ Code will be saved the the msi in a central location where everyone can access i
 Current folder structure via tree command:
 
 !!! tip
-  All groups are in /projects/standard and all users are in /users/<num>/x500
-
+  All groups are in /projects/standard and all users are in /users/x500
 
 /projects/standard/faird/shared/code/
 
