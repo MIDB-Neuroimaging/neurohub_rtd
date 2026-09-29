@@ -20,7 +20,7 @@ nav:
     - Home: index.md
 
     - Getting Started: #start
-        - Hub Overview: start/overview.md
+        - Hub Overview: start/1-overview.md
         - MIDB Overview: start/midb-over.md
         - Equipment Overview: start/equipment.md
         - CMRR Overview: start/cmrr-over.md
