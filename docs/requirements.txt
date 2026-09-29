@@ -1,9 +1,3 @@
 mkdocs-material
 mkdocs
 mkdocstrings
-
-admonition
-pymdownx.details
-pymdownx.superfences
-attr_list
-md_in_html
