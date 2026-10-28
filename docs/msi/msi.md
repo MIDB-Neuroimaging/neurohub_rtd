@@ -20,7 +20,7 @@ In order to request an MSI account as a non-UMN employee, a Person of Interest (
 
 ### Establish VPN
 
-To remotely log into MSI you need to establish a VPN connection. Detailed instructions can be found on [HST/AHC: VPN and Remote Desktop Setup](https://it.umn.edu/services-technologies/how-tos/hstahc-vpn-remote-desktop-setup){:target="_blank"} for Windows, OS X, and Linux.
+To remotely log into MSI you need to establish a VPN connection. Detailed instructions can be found on [Technology Help: Virtual Private Network](https://it.umn.edu/services-technologies/virtual-private-network-vpn){:target="_blank"} for Windows, OS X, and Linux.
 
 !!! note
 	If you already have VPN on your computer for another institution, you will need to complete the following steps:

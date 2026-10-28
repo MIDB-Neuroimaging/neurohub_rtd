@@ -7,16 +7,17 @@ This SOP outlines how to map to a CMRR server (i.e. Naxos) from the 3T-D console
 1. Ctrl + Esc -> File Explorer
 2. Right click on “this PC” and select “map to a network drive”
     - Drive to map: 
-        - <mark>\\range1.cmrr.umn.edu\dicom</mark>
+        - \\\range1.cmrr.umn.edu\dicom
         or
-        - <mark>\\range1.cmrr.umn.edu\CMRRusername</mark>
+        - \\\range1.cmrr.umn.edu\CMRRusername or
+        - <mark>\\\naxos2.cmrr.umn.edu\dicom</mark>
     - Check the box for “use different credentials”
     - Click “finish”
     -  You’ll be prompted for your CMRR username and password
         - Username: 
             - cmrr\CMRRusername
             or
-            - <mark>CMRRusername@cmrr.umn.edu</mark>
+            - CMRRusername@cmrr.umn.edu
         - Password: CMRR password
 3. If successful, you will now see the file tree of scans on Naxos, organized by month/year
 

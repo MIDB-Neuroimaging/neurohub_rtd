@@ -13,8 +13,8 @@ Here you can preview and download MRI sounds. These sounds can be played for par
 
 - [Siemens_Localizer](../downloads/Siemens_Localizer.wav)
 - [ Siemens_PD-T2](../downloads/Siemens_PD-T2.wav)
-- [Siemens_DTI.wav](../downloads/Siemens_DTI.wav)
-- [CryogenicPump.wav](../downloads/CryogenicPump.wav)
+- [Siemens_DTI](../downloads/Siemens_DTI.wav)
+- [CryogenicPump](../downloads/CryogenicPump.wav)
 
 <!-- 
 - <a href="../downloads/Siemens_Localizer.wav" download="Siemens_Localizer.wav">Siemens_Localizer</a>

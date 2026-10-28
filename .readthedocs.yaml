@@ -18,5 +18,3 @@ mkdocs:
 python:
    install:
    - requirements: docs/requirements.txt
-
-# Zach's test change
