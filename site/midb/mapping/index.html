@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Connecting to CMRR Servers - MIDB Neuroimaging Hub</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Connecting to CMRR Servers";
+        var mkdocs_page_input_path = "midb/mapping.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/brain-illustrations1.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/1-overview/">Hub Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/midb-over/">MIDB Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/equipment/">Equipment Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/cmrr-over/">CMRR Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/roadmap/">Roadmap to Success</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CMRR</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/user/">Registration and Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/operator/">Human Research Training</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/naxos/">CMRR Servers (accessing your data)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/transfer2/">Transferring data from CMRR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/search/">Help! Where is my data?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MIDB</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../midbaccess/">MIDB Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cnbd/">CNBD Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../use/">Courteous Usage</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../console/">At The Console</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../troubleshoot/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Connecting to CMRR Servers</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#map-to-the-network-drive">Map to the Network Drive</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#importing-a-scan">Importing a Scan</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#burning-to-disc">Burning to Disc</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cmrr-reference-docs">CMRR Reference Docs</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../safety/">Safety at MIDB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../floor/">Floor Plans</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../faqs/">FAQs</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MSI 101</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/msi/">Getting access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/transfer/">Transferring data on MSI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/maintenance/">For PIs - Activate and maintain your share</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/changes/">For PIs - Make changes to your share</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Handling on MSI</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../usingmsi/troubleshooting/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../usingmsi/location/">Using MSI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Equipment at MIDB</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/opto/">OptoActive</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mreyes/">MReyes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/goggles/">CinemaVision</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/firmm/">FIRMM</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mock/">Mock Scanner</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/basecamp/">What is Basecamp?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globus/">What is Globus?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globussop/">Globus How-to</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/ppdc/">Patient Incentives</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/links/">Useful Links</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">MIDB Neuroimaging Hub</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">MIDB</li>
+      <li class="breadcrumb-item active">Connecting to CMRR Servers</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="connecting-to-a-cmrr-server-on-3t-d">Connecting to a CMRR server on 3T-D</h1>
+<p>This SOP outlines how to map to a CMRR server (i.e. Naxos) from the 3T-D console computer. This is necessary if you need to re-import a scan that was removed from the computer. </p>
+<h2 id="map-to-the-network-drive">Map to the Network Drive</h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><mark>Highlighted instructions</mark> are the one that worked most recently, but another combination of options may work for you! This is a finicky process!</p>
+</div>
+<ol>
+<li>Ctrl + Esc -&gt; File Explorer</li>
+<li>Right click on “this PC” and select “map to a network drive”<ul>
+<li>Drive to map: <ul>
+<li>\\range1.cmrr.umn.edu\dicom
+or</li>
+<li>\\range1.cmrr.umn.edu\CMRRusername or</li>
+<li><mark>\\naxos2.cmrr.umn.edu\dicom</mark></li>
+</ul>
+</li>
+<li>Check the box for “use different credentials”</li>
+<li>Click “finish”</li>
+<li>You’ll be prompted for your CMRR username and password<ul>
+<li>Username: <ul>
+<li>cmrr\CMRRusername
+or</li>
+<li>CMRRusername@cmrr.umn.edu</li>
+</ul>
+</li>
+<li>Password: CMRR password</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>If successful, you will now see the file tree of scans on Naxos, organized by month/year</li>
+</ol>
+<h2 id="importing-a-scan">Importing a Scan</h2>
+<ol>
+<li>Back in the scanner system, open up the patient browser</li>
+<li>Select ‘Import’</li>
+<li>Your CMRR drive will show up as an option - navigate through the files and find the scan you want</li>
+<li>Select ‘Import’ </li>
+<li>Your scan will now appear in the patient browser (note: expect the import to take the same amount of time as the original export to naxos took)</li>
+</ol>
+<h2 id="burning-to-disc">Burning to Disc</h2>
+<ol>
+<li>Plug in CD burner to host computer</li>
+<li>Insert CD (located on shelf above Mac)</li>
+<li>Export</li>
+</ol>
+<h2 id="cmrr-reference-docs">CMRR Reference Docs</h2>
+<ul>
+<li><a href="https://www.cmrr.umn.edu/computeruser/nc-cms/content/upload/C103-02-ConnectingPCstoCMRRserverfileshares1.2.pdf" target="_blank">PC</a></li>
+<li><a href="https://www.cmrr.umn.edu/computeruser/nc-cms/content/upload/C104-01-ConnectingyourMactotheCMRRnetwork1.3.pdf" target="_blank">Mac</a> </li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../troubleshoot/" class="btn btn-neutral float-left" title="Troubleshooting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../safety/" class="btn btn-neutral float-right" title="Safety at MIDB">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../troubleshoot/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../safety/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

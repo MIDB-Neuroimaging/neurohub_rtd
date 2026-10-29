@@ -1,0 +1,32 @@
+# Tier 1 heading
+
+## Tier 2 heading
+
+### Tier 3 heading
+
+!!! tip
+    tip
+
+!!! note
+    note
+
+!!! warning
+    warning
+
+!!! danger
+    danger
+
+**Bold**
+*italics*
+<u>underline</u>
+
+Open link in new tab [text](link){:target="_blank"}
+
+insert picture with caption, space between picture and caption, and center
+<figure markdown="span" align='center'>
+    ![scanner](../images/scanner.jpg)
+    <figcaption style='margin-top: 10px;'>3T-D scanner at MIDB</figcaption>
+</figure>
+
+highlight text
+<mark>Text you want to highlight</mark>

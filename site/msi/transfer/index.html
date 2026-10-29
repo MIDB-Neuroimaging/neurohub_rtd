@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Transferring data on MSI - MIDB Neuroimaging Hub</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Transferring data on MSI";
+        var mkdocs_page_input_path = "msi/transfer.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/brain-illustrations1.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/1-overview/">Hub Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/midb-over/">MIDB Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/equipment/">Equipment Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/cmrr-over/">CMRR Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/roadmap/">Roadmap to Success</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CMRR</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/user/">Registration and Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/operator/">Human Research Training</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/naxos/">CMRR Servers (accessing your data)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/transfer2/">Transferring data from CMRR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/search/">Help! Where is my data?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MIDB</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/midbaccess/">MIDB Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/cnbd/">CNBD Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/use/">Courteous Usage</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/console/">At The Console</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/troubleshoot/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/mapping/">Connecting to CMRR Servers</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/safety/">Safety at MIDB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/floor/">Floor Plans</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/faqs/">FAQs</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MSI 101</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../msi/">Getting access</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Transferring data on MSI</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#moving-data-around">Moving data around</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#tier-1-disk-tier-2-s3">Tier 1 (disk) &lt;--&gt; Tier 2 (s3)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tier-1-disk-local-storage">Tier 1 (disk) &lt;--&gt; Local storage</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#letting-others-have-access-to-s3-buckets">Letting others have access to s3 buckets</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../maintenance/">For PIs - Activate and maintain your share</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../changes/">For PIs - Make changes to your share</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Handling on MSI</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../usingmsi/troubleshooting/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../usingmsi/location/">Using MSI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Equipment at MIDB</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/opto/">OptoActive</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mreyes/">MReyes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/goggles/">CinemaVision</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/firmm/">FIRMM</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mock/">Mock Scanner</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/basecamp/">What is Basecamp?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globus/">What is Globus?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globussop/">Globus How-to</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/ppdc/">Patient Incentives</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/links/">Useful Links</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">MIDB Neuroimaging Hub</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">MSI 101</li>
+      <li class="breadcrumb-item active">Transferring data on MSI</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="data-transfer-and-sharing-tools">Data Transfer and Sharing Tools</h1>
+<h2 id="moving-data-around">Moving data around</h2>
+<p><strong>Overview</strong></p>
+<ol>
+<li>Data acquired at the scanner is reconstructed into dicoms that show up in the Patient Browser. </li>
+<li>Push dicom data from the Patient Browser to Naxos. </li>
+<li>Transfer data from Naxos to MSI (Tier 1 or Tier 2). For more information on this step, please visit our <a href="../../cmrr/transfer2/" target="_blank">Transfering data from CMRR</a> page.</li>
+</ol>
+<h3 id="tier-1-disk-tier-2-s3">Tier 1 (disk) &lt;--&gt; Tier 2 (s3)</h3>
+<p>Data can be transferred between Tier 1 and Tier 2 via the s3cmd command - <a href="https://www.msi.umn.edu/support/faq/how-do-i-use-second-tier-storage-command-line" target="_blank">details here.</a></p>
+<h3 id="tier-1-disk-local-storage">Tier 1 (disk) &lt;--&gt; Local storage</h3>
+<p>Your UMN computer has a local storage space that you may want to use for working on specific files. You can transfer files between local and MSI Tier 1 systems via <a href="https://www.msi.umn.edu/support/faq/how-do-i-use-winscp-transfer-data" target="_blank">winSCP</a> or <a href="https://www.msi.umn.edu/support/faq/how-do-i-use-filezilla-transfer-data" target="_blank">FileZilla</a></p>
+<h2 id="letting-others-have-access-to-s3-buckets">Letting others have access to s3 buckets</h2>
+<p>See <a href="https://www.msi.umn.edu/support/faq/how-do-i-use-s3-buckets-share-data-tier-2-storage-other-users" target="_blank">this guide</a>. More about buckets. </p>
+<h1 id="globus">Globus</h1>
+<p>Globus is a file transfer service that has encrypted services for transmitting large-scale data between institutions. Checkout the <a href="../../resources/globussop/" target="_blank">Globus How-to page</a> or visit UMN's <a href="https://www.msi.umn.edu/support/faq/how-do-i-use-globus-transfer-data-msi-0" target="_blank">starting guide</a> for information on setting up Globus for transferring data to and from MSI servers.</p>
+<h1 id="box">Box</h1>
+<p>Box is a secure storage that is HIPPA compliant and available across many institutions. UMN’s IT maintains a <a href="https://it.umn.edu/services-technologies/self-help-guides/box-secure-storage-work-files-folders" target="_blank">set of guides</a> to learn how to use Box effectively. </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../msi/" class="btn btn-neutral float-left" title="Getting access"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../maintenance/" class="btn btn-neutral float-right" title="For PIs - Activate and maintain your share">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../msi/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../maintenance/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

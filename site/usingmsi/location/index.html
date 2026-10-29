@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Using MSI - MIDB Neuroimaging Hub</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Using MSI";
+        var mkdocs_page_input_path = "usingmsi/location.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/brain-illustrations1.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/1-overview/">Hub Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/midb-over/">MIDB Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/equipment/">Equipment Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/cmrr-over/">CMRR Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/roadmap/">Roadmap to Success</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CMRR</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/user/">Registration and Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/operator/">Human Research Training</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/naxos/">CMRR Servers (accessing your data)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/transfer2/">Transferring data from CMRR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/search/">Help! Where is my data?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MIDB</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/midbaccess/">MIDB Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/cnbd/">CNBD Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/use/">Courteous Usage</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/console/">At The Console</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/troubleshoot/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/mapping/">Connecting to CMRR Servers</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/safety/">Safety at MIDB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/floor/">Floor Plans</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../midb/faqs/">FAQs</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MSI 101</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/msi/">Getting access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/transfer/">Transferring data on MSI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/maintenance/">For PIs - Activate and maintain your share</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/changes/">For PIs - Make changes to your share</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Handling on MSI</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../troubleshooting/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Using MSI</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#permissions">Permissions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#code">Code</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data">Data</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#homefeczk001shareddata">/home/feczk001/shared/data</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#homemiran045shareddata">/home/miran045/shared/data</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#homefairdshareddata">/home/faird/shared/data/</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#projects">Projects</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Equipment at MIDB</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/opto/">OptoActive</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mreyes/">MReyes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/goggles/">CinemaVision</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/firmm/">FIRMM</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mock/">Mock Scanner</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/basecamp/">What is Basecamp?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globus/">What is Globus?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globussop/">Globus How-to</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/ppdc/">Patient Incentives</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/links/">Useful Links</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">MIDB Neuroimaging Hub</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Data Handling on MSI</li>
+      <li class="breadcrumb-item active">Using MSI</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="using-msi">Using MSI</h1>
+<h2 id="permissions">Permissions</h2>
+<p>To ensure the data and code created can be accessed by all, update your bashrc with the following steps:</p>
+<ul>
+<li>Open your bashrc file with a text editor</li>
+<li>emacs ~/.bashrc</li>
+<li>Set umask to 0007</li>
+<li>Close the file and type "source ~/.bashrc" info the terminal to apply the changes</li>
+</ul>
+<h2 id="code">Code</h2>
+<p>Code will be saved the the msi in a central location where everyone can access it</p>
+<p><strong>Folder organization</strong>: The folder “code” will have two directories: internal and external. Each directory will have subdirectories for different types of code (analyses, utilities, etc). Repos (example FRF, fconn anova) will live in each folder. See example below taken from rushmore at ohsu
+Current folder structure via tree command:</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>All groups are in /projects/standard and all users are in /users/x500</p>
+</div>
+<p>The following directory can be found at /projects/standard/faird/shared/code/</p>
+<div class="highlight"><pre><span></span><code>├── dev 
+├── external  
+│   ├── analytics  
+│   │   └── abcd-heap-feat
+│   ├── envs  
+│   │   └── miniconda3
+│   ├── GUIs  
+│   ├── pipelines  
+│   │   └── ABCD-XCP 
+│   │   └── fmriprep-rodents-test
+│   │   └── HCPpipelines
+│   │   └── nibabies
+│   │   └── symri
+│   ├── platforms  
+│   │   └── DEAP  
+│   ├── ROIS
+│   │   └── ColeAnticevicNetPartition
+│   ├── src  
+│   └── utilities  
+│       ├── ciftify
+│       ├── cifti-matlab
+│       ├── circularGraph
+│       ├── datalad-nda
+│       ├── dcan_regressor
+│       ├── distribute_readwrite_cifti
+│       ├── fairly-big-processing-workflow
+│       ├── freesurfer_license
+│       ├── gifti
+│       ├── gifti-1.6
+│       ├── gramm
+│       ├── infomap
+│       ├── MATLAB_Runtime_R2017a
+│       ├── MATLAB_Runtime_R2019a
+│       ├── MATLAB_Runtime_R2019a_update9
+│       ├── MATLAB_Runtime_R2021a
+│       ├── mri_conv-master
+│       ├── MSCcodebase-master
+│       ├── nda_manifest
+│       ├── nda_rds_files
+│       ├── nda-tools
+│       ├── nhp-brainextraction  
+│       ├── pandoc  
+│       ├── tree-1.8.0  
+│       ├── v100pytorch
+│       ├── workbench
+│       └── xmltree-2.0  
+└── internal  
+│    ├── analytics  
+│    │   ├── compare_matrices_copy_to_merge_from
+│    │   ├── compare_matrices_to_assign_networks    
+│    │   ├── DCANCCA  
+│    │   ├── FRF  
+│    │   ├── MarginalModelCIFTI  
+│    │   ├── NormativeModeling
+│    │   └── PEAS  
+│    ├── GUIs  
+│    │   ├── DEAP  
+│    │   └── GUI_brain_connectivity  
+│    ├── HPC_processing
+│    │   ├── hBCD_BCP_QSIprep
+│    │   ├── S1042_TMS_Tics
+│    │   ├── S1053_TMS_Fear
+│    │   └── seed_map_wrapper
+│    ├── nnUNet
+│    │   └── slurm_scripts
+│    ├── pipelines  
+│    │   ├── ABCD-BIDS  
+│    │   ├── abcd-hcp-pipeline
+│    │   ├── bidsnet
+│    │   ├── CABINET
+│    │   ├── DCAN-infant-BIDS  
+│    │   ├── dcan-infant-pipeline
+│    │   ├── dcan-nn-unet
+│    │   ├── freesurfer_license
+│    │   ├── infant-abcd-bids-pipeline
+│    │   ├── install_folder  
+│    │   ├── nhp-ABCD-BIDS
+│    │   ├── nibabies
+│    │   └── pipeline-subission  
+│    ├── platforms  
+│    └── utilities  
+│        ├── ABCD-BIDS-task-fmri-pipeline  
+│        ├── abcd-hcp-pipeline_audit
+│        ├── automated_subset_analysis  
+│        ├── basic_stats
+│        ├── biceps
+│        ├── BIDS-FM
+│        ├── CIFTI  
+│        ├── cifti_connectivity
+│        ├── CIFTIScalarAnalysis  
+│        ├── cifti_tools  
+│        ├── cifti_utilities 
+│        ├── combine_bids_sessions
+│        ├── CommunityChiSquaredAnalysis
+│        ├── community_detection
+│        ├── connectotyping  
+│        ├── dcan_bold_processing  
+│        ├── Dcm2Bids  
+│        ├── deface
+│        ├── fconn_matrices_tools  
+│        ├── fconn_stats  
+│        ├── figure_maker  
+│        ├── file-mapper  
+│        ├── files_handling  
+│        ├── generic_for_functions  
+│        ├── hcp-pipeline_audit 
+│        ├── image_manipulation
+│        ├── infomap_community_detection
+│        ├── intendedforgui
+│        ├── JSONS-Examples
+│        ├── MachineLearning_SVM 
+│        ├── mahalanobis_outlier_identifier
+│        ├── Matlab_CIFTI  
+│        ├── MatlabCompiledRuntimes 
+│        ├── MergeTimeSeires
+│        ├── movement_regressors_power_plots  
+│        ├── nda-abcd-s3-downloader
+│        ├── nda-bids-upload-prepare
+│        ├── nibabies_submission
+│        ├── NKI-Rockland_raw_download
+│        ├── NORDIC
+│        ├── outlier-sensoring
+│        ├── output
+│        ├── ParallelPconnGenerator  
+│        ├── PBSdemo  
+│        ├── pconn_rows_to_pscalar
+│        ├── pipeline_wrappers
+│        ├── plotting-tools  
+│        ├── polyneuro_risk_score  
+│        ├── ReadDir  
+│        ├── read_volumes
+│        ├── recursive-connectivity  
+│        ├── reformat_motion_numbers
+│        ├── save
+│        ├── seed_map_wrapper
+│        ├── simnibs_cifti_tools
+│        ├── singularity
+│        ├── slurm_pipeline_wrappers
+│        ├── SurfConnectivity  
+│        ├── tables_handling  
+│        ├── test_release_connectotyping  
+│        ├── text_manipulation
+│        ├── VARS
+│        └── Zscore_dconn
+└── stable
+     └── utilities
+         └── BWAS_PNRS_package
+</code></pre></div>
+<p>Each repo must be kept under version control and has a developer responsible.<br />
+Stewardship is defined in the following table:<br />
+<em>NOTE: Steward is responsible for keeping the code updated and making sure folder permissions are not chaged after updating code.</em></p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Description</th>
+<th>Steward_name</th>
+<th>Steward_X500</th>
+<th>Language</th>
+<th>Source</th>
+<th>Type</th>
+<th>path in the msi</th>
+<th>Path to git*b (New code should be on github)</th>
+<th>Additional documentation</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>compare_matrices_copy_to_merge_from</td>
+<td>Compare matrices copy that needs to be merged.</td>
+<td>Robert</td>
+<td>hermosir</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/compare_matrices_copy_to_merge_from</td>
+<td></td>
+<td>To be removed after merge</td>
+<td></td>
+</tr>
+<tr>
+<td>compare_matrices_to_assign_networks</td>
+<td>Compare matrices development repo.</td>
+<td>Robert</td>
+<td>hermosir</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/compare_matrices_to_assign_networks</td>
+<td><a href="https://gitlab.com/Fair_lab/compare_matrices_to_assign_networks">https://gitlab.com/Fair_lab/compare_matrices_to_assign_networks</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DCANCCA</td>
+<td>Perform Sparse canonical correlation analysis with multiple imputation and cross validation options</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>R</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/DCANCCA</td>
+<td><a href="https://gitlab.com/Fair_lab/dcancca/">https://gitlab.com/Fair_lab/dcancca/</a></td>
+<td></td>
+<td>To be removed after merge</td>
+</tr>
+<tr>
+<td>FRF</td>
+<td>Hybrid approach that combines functional data analysis, random forests, and community detection for identifying subtypes tied to an outcome</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/FRF</td>
+<td><a href="https://github.com/DCAN-Labs/functional-random-forest">https://github.com/DCAN-Labs/functional-random-forest</a></td>
+<td><a href="https://github.com/DCAN-Labs/functional-random-forest/blob/master/README.md">https://github.com/DCAN-Labs/functional-random-forest/blob/master/README.md</a></td>
+<td>Needs some updates -- was considering refactoring to R but abandoned to due lack of cycles</td>
+</tr>
+<tr>
+<td>MarginalModelCIFTI</td>
+<td>Marginal model approach for brain-wide assocations, works on all formats including tabulated data</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>R</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/MarginalModelCIFTI</td>
+<td><a href="https://github.com/DCAN-Labs/MarginalModelCIFTI">https://github.com/DCAN-Labs/MarginalModelCIFTI</a></td>
+<td><a href="https://github.com/DCAN-Labs/MarginalModelCIFTI">https://github.com/DCAN-Labs/MarginalModelCIFTI/README.md</a></td>
+<td>Needs to be renamed to SEND</td>
+</tr>
+<tr>
+<td>NormativeModeling</td>
+<td>Normative Modelling for identifying subtypes</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>TBD</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/NormativeModeling</td>
+<td></td>
+<td></td>
+<td>may be abandoned for now -- was intened for normative modeling approaches</td>
+</tr>
+<tr>
+<td>PEAS</td>
+<td>Extracting subtypes from polyneuro subtypes</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Matlab/R/bash</td>
+<td>internal</td>
+<td>analytics</td>
+<td>/projects/standard/faird/shared/code/internal/analytics/PEAS</td>
+<td><a href="https://gitlab.com/Fair_lab/Polyneuro-Extraction-of-ARMS-Subtypes">https://gitlab.com/Fair_lab/Polyneuro-Extraction-of-ARMS-Subtypes</a></td>
+<td></td>
+<td>needs to be deleted after merge -- should be renamed to SPEAR</td>
+</tr>
+<tr>
+<td>DEAP</td>
+<td>Data analysis and exploration portal</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>CSS/javascript/R</td>
+<td>internal</td>
+<td>GUIs</td>
+<td>/projects/standard/faird/shared/code/internal/GUIs/DEAP</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>GUI_brain_connectivity</td>
+<td>GUI to make graph theory on connectivity matrices</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>GUIs</td>
+<td>/projects/standard/faird/shared/code/internal/GUIs/GUI_brain_connectivity</td>
+<td><a href="https://gitlab.com/ascario/GUI_brain_connectivity">https://gitlab.com/ascario/GUI_brain_connectivity</a></td>
+<td></td>
+<td>Done ~2012. It is not cifti compatible</td>
+</tr>
+<tr>
+<td>hBCD_BCP_QSIprep</td>
+<td>Used to produce QSIPrep outputs for the hBCD study with the baby connectome project (BCP) data. Folder holds the scripts that Tim used to perform the processing / analyses.</td>
+<td>Tim H</td>
+<td>hendr522</td>
+<td>bash</td>
+<td>internal</td>
+<td>HPC_processing</td>
+<td>/projects/standard/faird/shared/code/internal/HPC_processing/hBCD_BCP_QSIprep</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ABCD-BIDS</td>
+<td>human adult/child pipeline</td>
+<td>Fez/Earl/Anders</td>
+<td>feczk001</td>
+<td>bash/matlab/python</td>
+<td>internal</td>
+<td>pipelines</td>
+<td>/projects/standard/faird/shared/code/internal/pipelines/DCAN-infant-BIDS</td>
+<td><a href="https://github.com/DCAN-Labs/abcd-hcp-pipeline">https://github.com/DCAN-Labs/abcd-hcp-pipeline</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DCAN-infant-BIDS</td>
+<td>human infant pipeline</td>
+<td>Kathy/Luci</td>
+<td>ksnider/lmoore</td>
+<td>bash/matlab/python</td>
+<td>internal</td>
+<td>pipelines</td>
+<td></td>
+<td><a href="https://github.com/DCAN-Labs/infant-abcd-bids-pipeline">https://github.com/DCAN-Labs/infant-abcd-bids-pipeline</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>freesurfer_license</td>
+<td>this is a freesurfer_license.txt file, not sure if it needs a steward, and should probably be moved to external</td>
+<td>Fez/Kathy</td>
+<td>feczk001/ksnider</td>
+<td>NA</td>
+<td>internal</td>
+<td>pipelines</td>
+<td>/projects/standard/faird/shared/code/internal/pipelines/freesurfer_license</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>install_folder</td>
+<td>set of scripts for installing pipelines on MSI</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>bash</td>
+<td>internal</td>
+<td>pipelines</td>
+<td>/projects/standard/faird/shared/code/internal/pipelines/install_folder</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>nhp-ABCD-BIDS</td>
+<td>macaque pipeline</td>
+<td>Thomas/Anders</td>
+<td>tmadison/perr0372</td>
+<td>bash/matlab/python</td>
+<td>internal</td>
+<td>pipelines</td>
+<td>/projects/standard/faird/shared/code/internal/pipelines/nhp-ABCD-BIDS</td>
+<td><a href="https://github.com/DCAN-Labs/nhp-abcd-bids-pipeline">https://github.com/DCAN-Labs/nhp-abcd-bids-pipeline</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>abcd_task_prep</td>
+<td>Not sure if currently used. Give Greg permission to folder.</td>
+<td>Greg</td>
+<td>gconan</td>
+<td>?</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/abcd_task_prep</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ABCD-BIDS-task-fmri-pipeline</td>
+<td>ABCD-BIDS task pipeline using FEAT GLM</td>
+<td>Anthony Juliano/Greg</td>
+<td>gconan</td>
+<td>bash/python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/ABCD-BIDS-task-fmri-pipeline</td>
+<td><a href="https://github.com/DCAN-Labs/ABCD-BIDS-task-fmri-pipeline">https://github.com/DCAN-Labs/ABCD-BIDS-task-fmri-pipeline</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>automated_subset_analysis</td>
+<td>subset reliability analysis for ARMS -- works with everything though</td>
+<td>Greg</td>
+<td>gconan</td>
+<td>python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/automated_subset_analysis</td>
+<td><a href="http://gitlab.com/Fair_lab/automated-subset-analysis">https://gitlab.com/Fair_lab/automated-subset-analysis</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>basic_stats</td>
+<td>report basic stats. Used by several other functions</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/basic_stats</td>
+<td><a href="https://gitlab.com/Fair_lab/basic_stats.git">https://gitlab.com/Fair_lab/basic_stats.git</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>biceps</td>
+<td>Brain Imaging Connectivity Extraction Program Solution: Tool to calculate connectivity matrices out of bids derivatives</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/biceps</td>
+<td>git@github.com:DCAN-Labs/biceps.git</td>
+<td><a href="https://gui-environments-documentation.readthedocs.io/en/latest/GUI_environments/">https://gui-environments-documentation.readthedocs.io/en/latest/GUI_environments/</a></td>
+<td>GUI_environments rebranded</td>
+</tr>
+<tr>
+<td>CIFTI</td>
+<td>external repo, contains cifti_open</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/CIFTI</td>
+<td><a href="https://github.com/OHBA-analysis/CIFTI.git">https://github.com/OHBA-analysis/CIFTI.git</a></td>
+<td></td>
+<td>Oscar downloaded the code. It should libe in external, needs to be conciliated with the other versions of CIFTIS</td>
+</tr>
+<tr>
+<td>cifti_connectivity</td>
+<td>Creates connectivity matrices from time series</td>
+<td>Greg/Robert</td>
+<td>hermosir</td>
+<td>Matlab/python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/cifti_connectivity</td>
+<td><a href="https://github.com/DCAN-Labs/cifti-connectivity">https://github.com/DCAN-Labs/cifti-connectivity</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>cifti_tools</td>
+<td>code from HCP-WashU with cifti tools.</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/cifti_tools</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>cifti_utilities</td>
+<td>A collection of cifti utilities from a variety of users</td>
+<td>Fez/Anders/Kathy/<br>Oscar/Robert/Greg</td>
+<td>feczk001</td>
+<td>bash/matlab/python/R</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/cifti_utilities</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CIFTIScalarAnalysis</td>
+<td>collection of utilities for working with CIFTIs -- used for prepping data for PALM</td>
+<td>Feczko</td>
+<td>feczk001</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/CIFTIScalarAnalysis</td>
+<td><a href="https://github.com/DCAN-Labs/CIFTIScalarAnalysis/">https://github.com/DCAN-Labs/CIFTIScalarAnalysis/</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CommunityChiSquaredAnalysis</td>
+<td>chi-squared enrichment analysis written in Matlab</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/CommunityChiSquaredAnalysis</td>
+<td><a href="https://github.com/DCAN-Labs/CommunityChiSquaredAnalysis">https://github.com/DCAN-Labs/CommunityChiSquaredAnalysis</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>connectotyping</td>
+<td>connectotyping: model based connectivity matrices</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/connectotyping</td>
+<td><a href="https://gitlab.com/ascario/connectotyping">https://gitlab.com/ascario/connectotyping</a></td>
+<td></td>
+<td>Needs to be conciliated with Paul's version</td>
+</tr>
+<tr>
+<td>Dcm2Bids</td>
+<td><a href="https://github.com/rordenlab/dcm2niix">Dcm2Bids reorganises NIfTI files from dcm2niix into the Brain Imaging Data Structure (BIDS).</a></td>
+<td>Anders</td>
+<td>perr0372</td>
+<td>python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/Dcm2Bids</td>
+<td><a href="https://github.com/DCAN-Labs/Dcm2Bids/">https://github.com/DCAN-Labs/Dcm2Bids/</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>fconn_matrices_tools</td>
+<td>tools to calculate means and distributions of fconn matrices. Also contains parcellation schemas</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/fconn_matrices_tools</td>
+<td><a href="https://gitlab.com/Fair_lab/fconn_matrices_tools.git">https://gitlab.com/Fair_lab/fconn_matrices_tools.git</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>fconn_stats</td>
+<td>tools to calculate differences in connectivity among groups, PLSR, among other things</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/fconn_stats</td>
+<td><a href="https://gitlab.com/Fair_lab/fconn_stats.git">https://gitlab.com/Fair_lab/fconn_stats.git</a></td>
+<td><a href="https://fconn-anova.readthedocs.io/en/latest/">https://fconn-anova.readthedocs.io/en/latest/</a> <br> <a href="https://fconn-regression.readthedocs.io/en/latest/">https://fconn-regression.readthedocs.io/en/latest/</a></td>
+<td></td>
+</tr>
+<tr>
+<td>figure_maker</td>
+<td>A utility that creates png from a cifti data file.</td>
+<td>Robert/Greg</td>
+<td>hermosir/gconan</td>
+<td>Bash/python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/figure_maker</td>
+<td><a href="https://gitlab.com/Fair_lab/figure-maker">https://gitlab.com/Fair_lab/figure-maker</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>file-mapper</td>
+<td>An easy way to copy/move/symlink files from one directory to another all-in-one.</td>
+<td>Kathy</td>
+<td>ksnider</td>
+<td>python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/file-mapper</td>
+<td><a href="https://github.com/DCAN-Labs/file-mapper/">https://github.com/DCAN-Labs/file-mapper/</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>files_handling</td>
+<td>functions to get path to files and folders</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/files_handling</td>
+<td><a href="https://gitlab.com/ascario/files_handling.git">https://gitlab.com/ascario/files_handling.git</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>generic_for_functions</td>
+<td>small functions used by other functions.<br>- encapsulate text with quotes If space<br>- make random text for temp filenames<br>- format text in figures to have the same resolution</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/generic_for_functions</td>
+<td><a href="https://gitlab.com/Fair_lab/generic_for_functions">https://gitlab.com/Fair_lab/generic_for_functions</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>image_manipulation</td>
+<td>tools to make a mosaic based on individual pictures</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/image_manipulation</td>
+<td><a href="https://gitlab.com/Fair_lab/image_manipulation">https://gitlab.com/Fair_lab/image_manipulation</a></td>
+<td>Made to combine photos taken with a microscope</td>
+<td></td>
+</tr>
+<tr>
+<td>infomap_community_detection</td>
+<td>Revisit who should be steward in 6 months. Cristian working through streamlining this.</td>
+<td>Robert / Cristian</td>
+<td>hermosir / moral453</td>
+<td>Multiple</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/infomap_community_detection</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MachineLearning_SVM</td>
+<td>Classifier using Support Vector Machine  used in the manuscript "Heritability of the Human Connectome"</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/MachineLearning_SVM</td>
+<td><a href="https://github.com/DCAN-Labs/MachineLearning_SVM">https://github.com/DCAN-Labs/MachineLearning_SVM</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Matlab_CIFTI</td>
+<td>Contains ciftiopen, ciftisave</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/Matlab_CIFTI</td>
+<td></td>
+<td></td>
+<td>Not in version control. Should be external and needs to be conciliated with the other versions of cifti open</td>
+</tr>
+<tr>
+<td>MatlabCompiledRuntimes</td>
+<td>collected and stored needed to run matlab compiled code</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/MatlabCompiledRuntimes</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>movement_regressors_power_plots</td>
+<td>Tools to viualize power spectra of motion numbers</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/movement_regressors_power_plots</td>
+<td><a href="https://github.com/DCAN-Labs/movement_regressors_power_plots.git">https://github.com/DCAN-Labs/movement_regressors_power_plots.git</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>nda-abcd-s3-downloader</td>
+<td>ABCD downloader tool to access S3 directly</td>
+<td>Anders</td>
+<td>perr0372</td>
+<td>python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/nda-abcd-s3-downloader</td>
+<td><a href="https://github.com/ABCD-STUDY/nda-abcd-s3-downloader">https://github.com/ABCD-STUDY/nda-abcd-s3-downloader</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ParallelPconnGenerator</td>
+<td>bash program for parallel pconn and ptseries generation -- wrapper for cifti_connectivity</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>bash</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/ParallelPconnGenerator</td>
+<td><a href="https://gitlab.com/Fair_lab/parallelpconngenerator">https://gitlab.com/Fair_lab/parallelpconngenerator</a></td>
+<td></td>
+<td>To be removed after merge</td>
+</tr>
+<tr>
+<td>paths_oscar_code.md</td>
+<td>remove</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Removed on May 5, 2021</td>
+</tr>
+<tr>
+<td>PBSdemo</td>
+<td>demo for how to use the decommissioned PBS grid</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>bash</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/PBSdemo</td>
+<td></td>
+<td></td>
+<td>can be discontinued</td>
+</tr>
+<tr>
+<td>pconn_rows_to_pscalar</td>
+<td>Summarizes a pconn the sum of the weights of each row, to visualize as a scalar</td>
+<td>Robert</td>
+<td>hermosir</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/pconn_rows_to_pscalar</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>plotting-tools</td>
+<td>Tools to make histograms, boxplots, to visualize connectivity matrices, etc</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/plotting-tools</td>
+<td><a href="https://gitlab.com/ascario/plotting-tools">https://gitlab.com/ascario/plotting-tools</a></td>
+<td></td>
+<td>Includes showM</td>
+</tr>
+<tr>
+<td>polyneuro_risk_score</td>
+<td>Tools to calculate BWAS/PNRS</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/polyneuro_risk_score</td>
+<td><a href="https://gitlab.com/Fair_lab/polyneuro_risk_score.git">https://gitlab.com/Fair_lab/polyneuro_risk_score.git</a></td>
+<td><a href="https://polyneuro-risk-score.readthedocs.io/en/latest/">https://polyneuro-risk-score.readthedocs.io/en/latest/</a></td>
+<td></td>
+</tr>
+<tr>
+<td>ReadDir</td>
+<td>super fast tool for listing files written in Perl</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Perl</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/ReadDir</td>
+<td><a href="https://gitlab.com/Fair_lab/readdir">https://gitlab.com/Fair_lab/readdir</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>recursive-connectivity</td>
+<td>Tools to calculate connectivity matrices using recursive estimation</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/recursive-connectivity</td>
+<td><a href="https://gitlab.com/Fair_lab/recursive-connectivity.git">https://gitlab.com/Fair_lab/recursive-connectivity.git</a></td>
+<td></td>
+<td>WIP</td>
+</tr>
+<tr>
+<td>seed_map_wrapper</td>
+<td>Correlates whole-brain connectivity to seed.</td>
+<td>Robert/Greg</td>
+<td>hermosir/gconan</td>
+<td>matlab/bash/python</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/seed_map_wrapper</td>
+<td><a href="https://gitlab.com/Fair_lab/Cifti_conn_matrix_to_corr_dt_pt">https://gitlab.com/Fair_lab/Cifti_conn_matrix_to_corr_dt_pt</a></td>
+<td><a href="https://gitlab.com/randolpa/seed-map-parcellation-wrapper-sop">https://gitlab.com/randolpa/seed-map-parcellation-wrapper-sop</a></td>
+<td>Anita has been working on documentation of this code.</td>
+</tr>
+<tr>
+<td>singularity</td>
+<td>Caches for compiling singularity builds. Can help singularity build faster.</td>
+<td>Not assigned</td>
+<td>Not assigned</td>
+<td>NA</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/singularity</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SurfConnectivity</td>
+<td>collection of compiled utilities for performing cluster detection in other languages like R</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/SurfConnectivity</td>
+<td><a href="https://github.com/DCAN-Labs/SurfConnectivity">https://github.com/DCAN-Labs/SurfConnectivity</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>tables_handling</td>
+<td>Tools to add fileds, rename headers, etc</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/tables_handling</td>
+<td><a href="https://gitlab.com/Fair_lab/tables_handling.git">https://gitlab.com/Fair_lab/tables_handling.git</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>test_release_connectotyping</td>
+<td>old version of connectotyping</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/test_release_connectotyping</td>
+<td></td>
+<td></td>
+<td>Not in version control. Conciliate with current branch and Paul's version</td>
+</tr>
+<tr>
+<td>text_manipulation</td>
+<td>Several functions to import and handle test in Matlab. Includes importData</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/text_manipulation</td>
+<td><a href="https://gitlab.com/Fair_lab/text_manipulation">https://gitlab.com/Fair_lab/text_manipulation</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>VARS</td>
+<td>Mulitple shaded line plot visualizations controlled via command line interface</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/projects/standard/faird/shared/code/internal/utilities/VARS</td>
+<td><a href="https://gitlab.com/Fair_lab/vars">https://gitlab.com/Fair_lab/vars</a></td>
+<td></td>
+<td>to be removed after merg</td>
+</tr>
+<tr>
+<td>wb_command.txt</td>
+<td>remove</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Removed on May 5, 2021</td>
+</tr>
+<tr>
+<td>abcd-heap-feat</td>
+<td>outdated version that was going to be used to do a group activation maps</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>external</td>
+<td>analytics</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/analytics/abcd-heap-feat</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>fmriprep-rodents-test</td>
+<td>rodent minimal preprocessing pipeline</td>
+<td>Thomas</td>
+<td>tmadison</td>
+<td>Python</td>
+<td>external</td>
+<td>pipelines</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/pipelines/fmriprep-rodents-test</td>
+<td><a href="https://github.com/poldracklab/fmriprep-rodents">https://github.com/poldracklab/fmriprep-rodents</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DEAP</td>
+<td>?</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>?</td>
+<td>external</td>
+<td>platforms</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/platforms/DEAP</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>tree-1.8.0.tar</td>
+<td>remove</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>cifti-matlab</td>
+<td>function to read gifti files</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/cifti-matlab</td>
+<td><a href="https://github.com/Washington-University/cifti-matlab.git">https://github.com/Washington-University/cifti-matlab.git</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>distribute_readwrite_cifti</td>
+<td>remove</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Removed on May 5, 2021</td>
+</tr>
+<tr>
+<td>gifti</td>
+<td>function to read gifti files</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/gifti</td>
+<td><a href="https://github.com/gllmflndn/gifti.git">https://github.com/gllmflndn/gifti.git</a></td>
+<td></td>
+<td>Old version to read giftis</td>
+</tr>
+<tr>
+<td>gifti-1.6</td>
+<td>read giftis and ciftis, utilities we have call 1.6</td>
+<td>Oscar</td>
+<td>miran045</td>
+<td>Matlab</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/gifti-1.6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>gramm</td>
+<td>Data visualization toolbox for matlab - grammatical lang like R</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>Matlab</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/gramm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>infomap</td>
+<td>community detection.</td>
+<td>Robert</td>
+<td>hermosir</td>
+<td>C</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/infomap</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MATLAB_Runtime_R2019a_Update_9_glnxa64.zip</td>
+<td>remove</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>mri_conv-master</td>
+<td>MRI File Manager (view and export ParaVision data to other formats)</td>
+<td>Thomas</td>
+<td>tmadison</td>
+<td>Java</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/mri_conv-master</td>
+<td><a href="https://github.com/populse/mri_conv">https://github.com/populse/mri_conv</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MSCcodebase-master</td>
+<td>A repository from the Midnight scan club that contains unique cifti processing utilies and example cifties</td>
+<td>Robert</td>
+<td>hermosir</td>
+<td>Matlab and other cifti files</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/MSCcodebase-master</td>
+<td><a href="https://github.com/MidnightScanClub/MSCcodebase">https://github.com/MidnightScanClub/MSCcodebase</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>nda_rds_files</td>
+<td>To get tabulated data into a coordinated format</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>NA</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/nda_rds_files</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>nhp-brainextraction</td>
+<td>UNet brain extraction for non-human primates</td>
+<td>Thomas</td>
+<td>tmadison</td>
+<td>Python</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/nhp-brainextraction</td>
+<td><a href="https://github.com/HumanBrainED/NHP-BrainExtraction">https://github.com/HumanBrainED/NHP-BrainExtraction</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>pandoc</td>
+<td>convert files from one markup format into another</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>MD</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/pandoc</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>tree-1.8.0</td>
+<td>useful to display, in a terminal, directory contents, including directories, files, links.</td>
+<td>Fez</td>
+<td>feczk001</td>
+<td>?</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/tree-1.8.0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>workbench</td>
+<td>Connectome Workbench (alternative installation to MSI's 'workbench' module)</td>
+<td>?</td>
+<td>?</td>
+<td>NA</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/workbench</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>xmltree-2.0</td>
+<td>necessary for reading giftis</td>
+<td>Robert</td>
+<td>hermosir</td>
+<td>?</td>
+<td>external</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/8/faird/shared/code/external/utilities/xmltree-2.0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BrainSegNet3D</td>
+<td>This is a general purpose 3D image segmentation architecture using torchio - a Python library for efficient loading, preprocessing, augmentation and patch-based sampling of 3D medical images in deep learning.</td>
+<td>Anders/Paul</td>
+<td>Jupyter Notebook</td>
+<td>internal</td>
+<td>deep-learning</td>
+<td></td>
+<td><a href="https://github.com/DCAN-Labs/BrainSegNet3D">https://github.com/DCAN-Labs/BrainSegNet3D</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>abcd-nn-unet</td>
+<td>Utility programs created for using nn-UNet for infant brain segmentation.</td>
+<td>Paul</td>
+<td>reine097</td>
+<td>Python</td>
+<td>internal</td>
+<td>deep-learning</td>
+<td></td>
+<td><a href="https://github.com/DCAN-Labs/abcd-nn-unet">https://github.com/DCAN-Labs/abcd-nn-unet</a></td>
+<td></td>
+<td><a href="https://github.com/MIC-DKFZ/nnUNet">Also see https://github.com/MIC-DKFZ/nnUNet</a></td>
+</tr>
+<tr>
+<td>Container, Biceps@Singularity</td>
+<td>singularity container with a standalone version of Biceps</td>
+<td>Oscar / Cristian</td>
+<td>miran045/moral453</td>
+<td>Singularity / Matlab</td>
+<td>internal</td>
+<td>utilities</td>
+<td>/panfs/roc/groups/4/miran045/moral453/container_biceps</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="data">Data</h2>
+<p>To optimize computing resources the MSI offers two types of <a href="https://www.msi.umn.edu/content/storage-allocations" target="_blank">storage</a>: <a href="https://www.msi.umn.edu/content/high-performance-storage" target="_blank">High Performance Storage</a> and <a href="https://www.msi.umn.edu/content/second-tier-storage" target="_blank">Second Tier Storage.</a> Data in the High Performance Storage is backed up and is accessible from all MSI system. Big data is stored in the Second Tier. Data for each particular project can be found on each PI’s space, depending on who leads each particular project. This table (make a md table describing ) summarizes the existing datasets in the DCAN.</p>
+<p>DCAN’s High Performance Storage data is located here:</p>
+<ul>
+<li><strong>/panfs/roc/groups/8/faird/shared/data</strong>  </li>
+<li><strong>/panfs/roc/groups/4/miran045/shared/data</strong>  </li>
+<li><strong>/panfs/roc/groups/4/feczk001/shared/data</strong>  </li>
+<li><strong>/panfs/roc/groups/4/rando149/shared/data</strong>  </li>
+</ul>
+<p>DCAN’s storage can also be accessed from MSI using the following shortcuts:</p>
+<ul>
+<li><strong>/home/faird/shared/data</strong>  </li>
+<li><strong>/home/miran045/shared/data</strong>  </li>
+<li><strong>/home/feczk001/shared/data</strong>  </li>
+<li><strong>/home/rando149/shared/data</strong>  </li>
+</ul>
+<p>Below is the current structure for shared data on each server:  </p>
+<h3 id="homefeczk001shareddata">/home/feczk001/shared/data</h3>
+<div class="highlight"><pre><span></span><code>├── ABCD
+├── ABCD_copy
+├── ABCD_sym_for_CuBIDS
+├── abcd-sync
+├── adhd_subs_transfer  
+│   ├── derivatives  
+│   │   ├── abcd-hcp-pipeline  
+│   │   └── CBRAIN-abcd-hcp-pipeline  
+├── BCP  
+│   ├── derivatives  
+│   │   └── dcan-infant-pipeline  
+│   ├── processed  
+│   │   └── test5_output  
+│   └── sorted
+├── BCP_MSIprocessed_anat
+├── BIDS_rat  
+├── computerized_loes_scoring
+├── datalad
+├── HBN
+├── HCP-D  
+│   ├── derivatives  
+│   │   ├── dcan-abcd-hcp  
+│   │   └── dcan-macaque-pipeline  
+│   ├── processed  
+│   │   ├── ABCD  
+│   │   └── Infants  
+│   └── sorted  
+│       └── NHP_anesthesia_Brambink  
+├── HNU
+├── manifests  
+    ├── BCP  
+    └── FezABCD  
+    └── experiments  
+├── MATAAR_subjects
+├── nnUNet
+├──S1058_3T_adult
+└── test
+</code></pre></div>
+<h3 id="homemiran045shareddata">/home/miran045/shared/data</h3>
+<div class="highlight"><pre><span></span><code>├── abcd  
+│   ├── BIDS  
+│   ├── fconns  
+│   ├── prep_ctype  
+│   └── variance_files  
+├── abcd_nda_retrieved_march_2021
+├── ABIDE
+├── ADHD
+├── BCP
+├── essa_7T
+├── GUI_environments_training  
+│   └── data  
+├── macaque_2yo_anesthesia  
+│   └── BIDS
+├── MSC_to_DCAN
+├── S1058
+├── UMich
+├── washu_me_baby
+└── zimmerman_10p5T_macaque_test
+</code></pre></div>
+<h3 id="homefairdshareddata">/home/faird/shared/data/</h3>
+<div class="highlight"><pre><span></span><code>└── BCP_QSIprep
+</code></pre></div>
+<p>Our group has access to 480 TB of Second Tier Storage.<br />
+Requests to save data on primary or secondary storage must be submitted to DCAN leadership. For more information on transferring data between storage locations, visit our data tranfer pages within this Read the Docs page.</p>
+<h2 id="projects">Projects</h2>
+<p>Specific projects where derived measures are extracted from data (see above) and analyses are conducted can be found in respective projects folders:</p>
+<ul>
+<li>/home/faird/shared/projects</li>
+<li>/home/miran045/shared/projects</li>
+<li>/home/feczk001/shared/projects</li>
+</ul>
+<p>Current active prohects are listed below for each subfolder:</p>
+<p><strong>/home/faird/shared/projects</strong>:  </p>
+<p><strong>/home/miran045/shared/projects</strong>:  </p>
+<ul>
+<li><strong>ADHD_comm_det</strong> Analysis of ADHD data collected at OHSU under Dr. Joel Nigg, includes:</li>
+<li><strong>ADHD_CCA</strong> ADHD canonical correlation analysis of template definitions with ???</li>
+<li><strong>ADHD_num_nets_palm</strong> ADHD analysis of overlapping networks via PALM</li>
+<li><strong>ADHD_templmatch</strong> ADHD template matched datasets</li>
+<li><strong>FOG_left_pallidus</strong> Examination of freezers/non-freezers of left-pallidus connectivity</li>
+<li><strong>Gates_infant_toddler_filtering</strong> Analysis of motion filtering for BCP study</li>
+<li><strong>Polyneuro_risk_score</strong> Polyneuro calculations for ABCD data, specifically EF -- may expand to OHSU collected ADHD as well, hence not in ABCD projects folder</li>
+<li><strong>visual_inspection_timecourses</strong> -- demonstration of visualizing timecourses using matlab and ABCD data  </li>
+</ul>
+<p><strong>/home/feczk001/shared/projects</strong>:</p>
+<ul>
+<li><strong>ABCD Projects</strong> related to the ABCD study and include:  </li>
+<li><strong>Integrative zones</strong>  parcellated connectivity matrices for ABCD-1 and ABCD-2 are here for the integrative zones  </li>
+<li><strong>Integrative zones probability labels</strong> labelfiles for integrative zones at multiple thresholds are located here  </li>
+<li><strong>Gordon sets</strong> parcellated connectivity matrices for ABCD-1 and ABCD-2  </li>
+<li><strong>Average_surfaces</strong> generated from ABCD-1 and ABCD-2 for functional analyses and data visualization  </li>
+<li><strong>Conan_subset_analysis</strong> reliability analyses for ABCD-1 and ABCD-2  </li>
+<li><strong>Threshold_template_maps</strong> threshold template connectivity matrices for ABCD-2 and ABCD-2 respectively  </li>
+<li><strong>Pconn_demo</strong> demonstration of pconn generation using ABCD data  </li>
+<li><strong>Abcd-sync</strong> ABCD DAIRC comparisons to ABCD BIDS</li>
+<li><strong>ADHD</strong> Projects related to the ADHD study collected at OHSU under Dr. Joel Nigg. Includes the ADHD parcellated connectivity matrices  </li>
+<li><strong>FEZ_USERS</strong> Private projects for training and development -- not for public use  </li>
+<li><strong>Macaque_test</strong> Test of the macaque pipeline at UMN  </li>
+<li><strong>Workflow_demos</strong> Demonstration of the parallel pconn generator  </li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../troubleshooting/" class="btn btn-neutral float-left" title="Troubleshooting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../equip/opto/" class="btn btn-neutral float-right" title="OptoActive">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../troubleshooting/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../equip/opto/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
