@@ -59,6 +59,7 @@ nav:
     - Equipment at MIDB:
         - OptoActive: equip/opto.md
         - MReyes: equip/mreyes.md
+        - CinemaVision: equip/goggles.md
         - FIRMM: equip/firmm.md
         - Mock Scanner: equip/mock.md
 

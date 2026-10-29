@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Troubleshooting - MIDB Neuroimaging Hub</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Troubleshooting";
+        var mkdocs_page_input_path = "midb/troubleshoot.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/brain-illustrations1.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/1-overview/">Hub Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/midb-over/">MIDB Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/equipment/">Equipment Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/cmrr-over/">CMRR Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../start/roadmap/">Roadmap to Success</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CMRR</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/user/">Registration and Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/operator/">Human Research Training</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/naxos/">CMRR Servers (accessing your data)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/transfer2/">Transferring data from CMRR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cmrr/search/">Help! Where is my data?</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MIDB</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../midbaccess/">MIDB Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cnbd/">CNBD Access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../use/">Courteous Usage</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../console/">At The Console</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Troubleshooting</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#if-someone-comes-out-of-the-scanner">If someone comes out of the scanner</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#shutting-down-to-the-wall">Shutting down to the wall</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#audio-not-working-nnl-disconnected-forgets-it-has-speakers">Audio Not Working (NNL disconnected / forgets it has speakers)</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../mapping/">Connecting to CMRR Servers</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../safety/">Safety at MIDB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../floor/">Floor Plans</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../faqs/">FAQs</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MSI 101</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/msi/">Getting access</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/transfer/">Transferring data on MSI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/maintenance/">For PIs - Activate and maintain your share</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../msi/changes/">For PIs - Make changes to your share</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Handling on MSI</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../usingmsi/troubleshooting/">Troubleshooting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../usingmsi/location/">Using MSI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Equipment at MIDB</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/opto/">OptoActive</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mreyes/">MReyes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/goggles/">CinemaVision</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/firmm/">FIRMM</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../equip/mock/">Mock Scanner</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/basecamp/">What is Basecamp?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globus/">What is Globus?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/globussop/">Globus How-to</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/ppdc/">Patient Incentives</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/links/">Useful Links</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">MIDB Neuroimaging Hub</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">MIDB</li>
+      <li class="breadcrumb-item active">Troubleshooting</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="troubleshooting-the-scanner">Troubleshooting The Scanner</h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure coils are unplugged before restarting scanner</p>
+</div>
+<h2 id="if-someone-comes-out-of-the-scanner">If someone comes out of the scanner</h2>
+<ul>
+<li>Need to rerun localizers &amp; field maps </li>
+<li>Field maps are required for resting runs, but not for structurals</li>
+<li>Go to dot cockpit and Ctrl + select + drag into protocol</li>
+<li>Remember to grab setter for structurals </li>
+</ul>
+<h2 id="shutting-down-to-the-wall">Shutting down to the wall</h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please try to restart the computer prior to shutting down to the wall to see if the problem resolves.</p>
+</div>
+<h2 id="audio-not-working-nnl-disconnected-forgets-it-has-speakers">Audio Not Working (NNL disconnected / forgets it has speakers)</h2>
+<ol>
+<li>Go to device manager</li>
+<li>Scan for hardware</li>
+<li>Reconnect to speakers</li>
+</ol>
+<h1 id="common-3t-issues-and-errors">Common 3T Issues and Errors</h1>
+<h2 id="how-to-reboot-the-system">How to Reboot the System</h2>
+<ul>
+<li>Go to System &gt; End Session &gt; Shutdown System</li>
+<li>Wait for the console computer to shut down completely.</li>
+<li>The message “It’s now safe to turn off your computer” will appear on the monitor, at which time you can shut off the console computer using the power button on the tower.</li>
+<li>Once the console computer shuts down, shutdown the scanner by pushing the “System off”’ button on the quench box.
+    <figure markdown="span" align='center'>
+        <img alt="" src="../../images/reboot1.png" />
+    </figure></li>
+<li>Wait ~5 minutes, and then turn everything back on by pushing the “System on” button on the quench box.
+    <figure markdown="span" align='center'>
+        <img alt="" src="../../images/reboot2.png" />
+    </figure></li>
+</ul>
+<h2 id="stimulation-monitor-warnings">Stimulation Monitor Warnings</h2>
+<p><strong>This warning message</strong> (Figure 2) always appears upon initiating T2. Just click OK.</p>
+<figure align="center">
+    <img alt="" src="../../images/stim1.png" />
+    <figcaption style='margin-top: 10px;'>Figure 2. Stimulation Warning at T2</figcaption>
+</figure>
+<p><strong>This warning message</strong> (Figure 3) appears upon initiating rfMRI or DWI when the FOV (yellow box) angle in the axial plane (the far right one) is too steep due to uncentered and tilted head position in the coil.
+- Click “Open Protocol” or just close the warning window. (Do not click something else in the window.)
+- Decrease the angle to something more shallow, then attempt to run the sequence again.
+- Make sure to copy the adjusted slice positioning to the remaining PA-AP pair. (AP-PA pair must have the same slice positioning.)
+- Make note of this warning message on the scan log.</p>
+<figure align="center">
+    <img alt="" src="../../images/stim2.png" />
+    <figcaption style='margin-top: 10px;'>Figure 3. Stimulation Limit Exceeds Warning</figcaption>
+</figure>
+<h2 id="preparation-of-measurement-system-failed-error">Preparation of measurement system failed error</h2>
+<p>This occurs when initiating rfMRI or DWI. The scanner doesn’t run the sequence and you will see <img alt="" src="../../images/stim3.png" /> on the status bar on the console computer.</p>
+<ul>
+<li>For each sequence you have the error, go to Sequence &gt; Special &gt; uncheck “Save reduced raw data” and rerun the sequence.</li>
+<li>If the first thing doesn’t help, try rebooting system by going System &gt; End Session &gt; Shutdown System</li>
+<li>If you don’t want to full system shutdown, go System &gt; Control &gt; Meas&amp;Recon tab &gt; Reboot</li>
+</ul>
+<h2 id="smx-control-program-error">SMX Control Program Error</h2>
+<p>When you see error message like below (Figure 4)</p>
+<ul>
+<li>Quit the SMX control program and reopen.</li>
+<li>Choose “IP” option. When prompted for a password, just click Connect without entering a password.</li>
+</ul>
+<figure align="center">
+    <img alt="" src="../../images/smx.png" />
+    <figcaption style='margin-top: 10px;'>Figure 4. SMX Control Program Error</figcaption>
+</figure>
+<h2 id="emergency-table-stop-button-pressed">Emergency table stop button pressed</h2>
+<figure align="center">
+    <img alt="" src="../../images/table1.png" />
+</figure>
+<ul>
+<li>Reset the table stop by turning red control button clockwise</li>
+<li>Press up and down buttons simultaneously</li>
+</ul>
+<h2 id="the-squeeze-ball-button-alarm-sounds">The Squeeze Ball/ Button Alarm sounds</h2>
+<ul>
+<li>Stop the scanner using the mouse and clicking the stop icon in the lower left on the console screen</li>
+<li>To clear the alarm, press the talk button on the intercom associated with the squeeze ball, either #2 talk or #3 alarm</li>
+<li>Talk to your participant through the intercom system </li>
+<li><strong>DO NOT</strong> press the “Stop” button (#1) on the Siemens Talk Box, or you will need to reset the table.</li>
+</ul>
+<figure align="center">
+    <img alt="" src="../../images/squeeze.png" />
+</figure>
+<h2 id="emergency-patient-bed-release">Emergency Patient Bed Release</h2>
+<p>In the event of an emergency or power outage, it is possible to remove the patient bed from the bore manually.
+- First, locate the manual table release lever, near the foot of the bed on the right side.
+    <figure markdown="span" align='center'>
+        <img alt="" src="../../images/ptbed1.png" />
+    </figure>
+- Next, grab the handle near the foot of the bed and pull the bed out of the bore.
+    <figure markdown="span" align='center'>
+        <img alt="" src="../../images/ptbed2.png" />
+    </figure>
+- Bed controls will start flashing, and the scanner display will provide instructions (below) to reset the bed position.</p>
+<h3 id="to-reset-the-table">To reset the table</h3>
+<ul>
+<li>Press the button (7) on the side of the intercom box
+    <figure markdown="span" align='center'>
+        <img alt="" src="../../images/ptbed3.png" />
+    </figure></li>
+<li>Then, on the scanner, simultaneously press the Table Up and Table Down buttons.
+    <figure markdown="span" align='center'>
+        <img alt="" src="../../images/ptbed4.png" />
+    </figure></li>
+</ul>
+<h2 id="resolve-naming-errors-or-change-patient-information-after-scan-is-done">Resolve naming errors (or change patient information) after scan is done</h2>
+<ul>
+<li>Close patient </li>
+<li>Open Patient Browser -&gt; Select the folder you want to make changes -&gt; Edit -&gt; Correct</li>
+</ul>
+<h2 id="the-subject-had-to-come-out-of-the-magnet-what-do-i-need-to-do-to-continue-the-protocol">The subject had to come out of the magnet; what do I need to do to continue the protocol?</h2>
+<ul>
+<li>After positioning the subject, you will need to re-run the localizer. </li>
+<li>All AP/PA paired scans must be the same, so if one is complete and then the sequence is interrupted, you must re-acquire both.</li>
+</ul>
+<h2 id="the-3t-just-failed-out-or-refuses-to-go-for-unknown-reasons">The 3T just failed out, or refuses to go for unknown reasons.</h2>
+<ul>
+<li>Try to just run the exact same thing again, or go on and re-run the failed scan later. If it won’t let you, contact the slack channel (or Jess &amp; Kim).</li>
+<li>Go to System &gt; Control -- the System Manager will pop up. <ul>
+<li>The arrows should be green from “postprocessing” on up; if one is red, click on it to see what’s going on</li>
+<li>Click on “Meas &amp; Recon” tab if anything is red; may need to select whatever is red and choose “Reboot”</li>
+<li>“Periphery” tab should be all green</li>
+</ul>
+</li>
+<li>Reboot the system if necessary</li>
+</ul>
+<h2 id="the-scanner-not-the-console-rebooted-randomly">The scanner (NOT the console) rebooted randomly</h2>
+<ul>
+<li>Make a note on the error log and contact the slack channel (or Jess &amp; Kim).</li>
+<li>Don't adjust the subject, but do check to see if patient is still registered on the scanner (this will appear on the scanner screen, and will say something like "New patient registered"), and do check to be sure they are still at isocenter </li>
+<li>Once the scanner has finished rebooting, insert a localizer above the sequences remaining to be collected and run it</li>
+<li>Reapply the T1 shim to all sequences that remain to be collected</li>
+<li>Double check slice positioning of all remaining sequences (shouldn't change, but check just to be sure)</li>
+</ul>
+<h2 id="the-scanner-is-running-but-no-data-is-showing-in-the-patient-browser-although-the-patient-is-listed">The scanner is running, but no data is showing in the patient browser, although the patient is listed.</h2>
+<ul>
+<li>There is an error in the recon computer. Run “Save Log” as described on the sheet below the console monitor.</li>
+<li>Note error on the sheet below the monitor.</li>
+<li>Reboot as described on the sheet below the monitor.</li>
+</ul>
+<h2 id="the-patient-is-not-showing-up-in-the-patient-browser">The patient is not showing up in the Patient Browser.</h2>
+<ul>
+<li>First try sorting by Date using the Sort menu at the top of the Patient Browser window to check the T1</li>
+<li>Continue to acquire the T2 but stop after that and reboot the console computer by going to System &gt; Controls&gt; Reboot. </li>
+<li>When asked if you still want to shutdown choose Yes. </li>
+<li>Once the computer is back on check the quality of the T1 and T2 </li>
+<li>If they look good and your participant is still in place and good to continue, start with a new localizer and the rest of the sequences.</li>
+</ul>
+<h2 id="the-console-software-is-frozen">The console software is frozen</h2>
+<ul>
+<li>Ctl + Esc to access the Start menu and restart the computer -- this process takes ~10 minutes; the numbers displayed on the screen will progress from 0-100</li>
+</ul>
+<h2 id="helium-level-warning">Helium level warning</h2>
+<ul>
+<li>You may see the warning message (Figure 5), saying that the helium level of the magnet is below the warning threshold. This is a service warning. It is safe to use the magnet.</li>
+<li>You can click OK and proceed to scan.</li>
+<li>After clicking OK, you will continue to hear a beeping warning message coming from the Quench box. Don’t be alarmed by it. To turn off the alarm, you can hit the silent alarm button on the cleanse box to the right of the on and off button.</li>
+<li>Reach out to slack channel, email to Jess or Kim. </li>
+</ul>
+<figure align="center">
+    <img alt="" src="../../images/helium.png" />
+    <figcaption style='margin-top: 10px;'>Figure 5. Helium level warning message</figcaption>
+</figure>
+<h1 id="call-tree">Call Tree</h1>
+<ol>
+<li>3TD-help Slack Channel</li>
+<li>Jess Emerick  </li>
+<li>Kim Weldon </li>
+<li>Steve Nelson </li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Not a member of the Slack channel? Ask Jess to be added!</p>
+</div>
+<p>Safety Concerns, contact the Safety Officer - Jeramy Kulesa (ande2445@umn.edu)
+Tech / peripherals - Jeromy Thotland (cmrrviz@umn.edu)</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../console/" class="btn btn-neutral float-left" title="At The Console"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../mapping/" class="btn btn-neutral float-right" title="Connecting to CMRR Servers">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../console/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../mapping/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
