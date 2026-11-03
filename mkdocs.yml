@@ -63,6 +63,9 @@ nav:
         - FIRMM: equip/firmm.md
         - Mock Scanner: equip/mock.md
 
+    - Scanning SOPs:
+        - Importing Protocols: sop/import.md
+
     - Resources: #resources
         - What is Basecamp?: resources/basecamp.md
         - What is Globus?: resources/globus.md
