@@ -7,6 +7,8 @@
     - MRI safe headphones with active noise canceling to reduce in-scanner background noise
 - [**MReyes Camera**](../equip/mreyes.md)
     - Provides a clear view of the participant’s eyes to monitor alertness and changes in gaze
+- [**CinemaVision Goggles**](../equip/goggles.md)
+    - MRI safe goggles capable of presenting visual stimulus and eyetracking with a built in eye camera
 - [**Framewise Integrated Real-time MRI Monitoring (FIRMM); FIRMM-pix, developed by NOUS Imaging**](../equip/firmm.md)
     - Provides real-time monitoring of patient movement to scanner operators
     - FIRMM-pix combines gamification and real-time biofeedback to participants to minimize motion and improve brain MRI data quality.

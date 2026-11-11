@@ -155,10 +155,11 @@ In the event of an emergency or power outage, it is possible to remove the patie
 # Call Tree
 1. 3TD-help Slack Channel
 2. Jess Emerick  
-3. Kim Weldon 
-4. Steve Nelson 
+3. Zach Miller
+4. Kim Weldon 
+5. Steve Nelson 
 !!! note
     Not a member of the Slack channel? Ask Jess to be added!
 
 Safety Concerns, contact the Safety Officer - Jeramy Kulesa (ande2445@umn.edu)
-Tech / peripherals - Jeromy Thotland (cmrrviz@umn.edu)
+Tech / peripherals - (cmrrviz@umn.edu)

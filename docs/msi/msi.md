@@ -12,7 +12,7 @@ PIs can request the activation of their share partition [here.](https://www.msi.
 
 ### Non-UMN Employees
 
-In order to request an MSI account as a non-UMN employee, a Person of Interest (POI) account must first be created. Non-UMN users will need written support from a UMN PI. Follow the instructions [here.](https://www.msi.umn.edu/support/faq/how-do-i-get-person-interest-poi-designation){:target="_blank"}
+In order to request an MSI account as a non-UMN employee, a Person of Interest (POI) account must first be created. Non-UMN users will need written support from a UMN PI. Contact the [MSI Helpdesk](https://msi.umn.edu/helpdesk){:target="_blank"} for assistance.
 
 
 ## Gaining Access to MSI

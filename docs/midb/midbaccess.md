@@ -15,7 +15,7 @@ To gain access to the imaging suite, researchers must complete the online safety
 
 Once you have completed the required training, you will need to attend a 3TD Safety Orientation. These orientations usually take 20-25 minutes and are completed at the scanner with one of our technicians. To schedule an orientation, please email your training record to Jon Lem (lem00006@umn.edu), the CMRR Facilities Coordinator, and request 3T-D access.
 
-For more information, visit [https://www.cmrr.umn.edu/safety/.](https://www.cmrr.umn.edu/safety/){:target="_blank"}
+For more information, visit the [CMRR Safety page.](https://www.cmrr.umn.edu/safety/){:target="_blank"}
 
 ## Scheduling 3T-D or Mock Scanner
 
