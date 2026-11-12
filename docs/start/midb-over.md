@@ -3,7 +3,7 @@
     ![midb](../images/midb1.jpg)
 </figure>
 
-MIDB is home to multiple research hubs devoted to fostering innovative and inspirational research on brain development. You can learn more about the MIDB Clinic, research hubs, community, events, and more on our website [https://midb.umn.edu/](https://midb.umn.edu/){:target="_blank"}. If you have any questions, please reach out to midbresearch@umn.edu.
+MIDB is home to multiple research hubs devoted to fostering innovative and inspirational research on brain development. You can learn more about the MIDB Clinic, research hubs, community, events, and more on the [MIDB website](https://midb.umn.edu/){:target="_blank"}. If you have any questions, please reach out to midbresearch@umn.edu.
 
 ## Research Hubs at MIDB
 There are 8 Research Hubs operating out of MIDB; Analytics, Center for Neurobehavioral Development (CNBD), Community Engagement and Education (CEEd), Informatics, Neuroimaging, Neuromodulation, TeleOutreach, and Translational. If you would like to submit a research engagement request, please follow the instructions on the [process for engagement request](https://midb.umn.edu/research-services/engage-midb-service-hubs/process-engagement){:target="_blank"} page. For a list of on-going studies occurring at MIDB, please see the [current supported studies](https://midb.umn.edu/research-services/studies-open-enrollment){:target="_blank"} page.
